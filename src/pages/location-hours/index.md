@@ -8,6 +8,8 @@ You’ll find us at 144 Mt Auburn St, Cambridge, Massachusetts, on the edge of H
 
 ## Hours
 
-| SUN         | MON - THU   | FRI - SAT |
-| ----------- |   ---       | --- |
-| 12PM to 7pm | 11AM to 8PM  | 10 AM to 9 PM  |
+Sunday: 12pm to 7pm
+
+Monday - Thursday: 11am to 8pm
+
+Friday - Saturday: 10am to 9pm
