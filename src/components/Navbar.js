@@ -36,6 +36,7 @@ const Navbar = class extends React.Component {
     const links = [
       { label: 'About', to: '/about' },
       { label: 'Sell & Trade', to: '/sell-trade' },
+      { label: 'Location & Hours', to: '/location-hours' },
       { label: 'Products', to: '/products' },
       // { label: 'Blog', to: '/blog' },
       { label: 'Contact', to: '/contact' },

@@ -3,10 +3,11 @@ import uploadcare from 'netlify-cms-media-library-uploadcare';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
 
 import AboutPagePreview from './preview-templates/AboutPagePreview';
-import SellTradePagePreview from './preview-templates/SellTradePagePreview';
 import BlogPostPreview from './preview-templates/BlogPostPreview';
 import ProductPagePreview from './preview-templates/ProductPagePreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
+import SellTradePagePreview from './preview-templates/SellTradePagePreview';
+import LocationHoursPagePreview from './preview-templates/LocationHoursPagePreview';
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -16,3 +17,4 @@ CMS.registerPreviewTemplate('about', AboutPagePreview);
 CMS.registerPreviewTemplate('products', ProductPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 CMS.registerPreviewTemplate('sell-trade', SellTradePagePreview);
+CMS.registerPreviewTemplate('location-hours', LocationHoursPagePreview);

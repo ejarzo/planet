@@ -57,6 +57,13 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "sell-trade-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/location-hours/index.md"
+        label: "Sell & Trade"
+        name: "location-hours"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "location-hours-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
