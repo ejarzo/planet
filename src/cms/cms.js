@@ -8,6 +8,7 @@ import ProductPagePreview from './preview-templates/ProductPagePreview';
 import IndexPagePreview from './preview-templates/IndexPagePreview';
 import SellTradePagePreview from './preview-templates/SellTradePagePreview';
 import LocationHoursPagePreview from './preview-templates/LocationHoursPagePreview';
+import HistoryPagePreview from './preview-templates/HistoryPagePreview';
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -18,3 +19,4 @@ CMS.registerPreviewTemplate('products', ProductPagePreview);
 CMS.registerPreviewTemplate('blog', BlogPostPreview);
 CMS.registerPreviewTemplate('sell-trade', SellTradePagePreview);
 CMS.registerPreviewTemplate('location-hours', LocationHoursPagePreview);
+CMS.registerPreviewTemplate('history', HistoryPagePreview);
