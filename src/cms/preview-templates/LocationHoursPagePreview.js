@@ -4,7 +4,6 @@ import { LocationHoursTemplate } from '../../templates/location-hours-page';
 
 const LocationHoursPagePreview = ({ entry, widgetFor }) => (
   <LocationHoursTemplate
-    ads={console.log('als;dfkja;sldfkj')}
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />

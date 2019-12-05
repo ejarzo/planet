@@ -4,7 +4,6 @@ import { SellTradeTemplate } from '../../templates/sell-trade-page';
 
 const SellTradePagePreview = ({ entry, widgetFor }) => (
   <SellTradeTemplate
-    ads={console.log('als;dfkja;sldfkj')}
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
   />
