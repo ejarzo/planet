@@ -4,11 +4,11 @@ title: About Planet Records
 ---
 ### History
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Planet’s been around since 1983. [Read about the Kenmore store and more](/about/history). 
 
 ### What We Do
 
- We make the most of our space. You can find a ton of quality material in our well-organized bins. CDs and LPs form the bulk of our inventory, but we also carry DVDs and 45s, plus smaller sections of books, blu-rays and even laserdiscs. (We don’t carry audio cassettes or VHS tapes.)
+We make the most of our space. You can find a ton of quality material in our well-organized bins. CDs and LPs form the bulk of our inventory, but we also carry DVDs and 45s, plus smaller sections of books, blu-rays and even laserdiscs. (We don’t carry audio cassettes or VHS tapes.)
 
 We’ve added more room for vinyl to meet the recent increase in demand. The New Arrivals section moves quickly, so many customers visit several times a week to make sure they don’t miss something they’ve been hunting down.
 
