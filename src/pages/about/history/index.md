@@ -12,6 +12,6 @@ The Kenmore Square store was a great business success from the start. Possibly c
 
 ## Move to Mt. Auburn St.
 
-Thirteen years later, in 2011, we were pressured to leave that space due to an astronomical rent hike. Fortunately, John found a new spot that was only a short distance away. With help from his brother David, after seven months of gutting, designing, and constructing we were able to move in March of 2012. [You can now find us next to Darwin’s coffee shop on Mt. Auburn St.](location-hours) (look for the blue awning).
+Thirteen years later, in 2011, we were pressured to leave that space due to an astronomical rent hike. Fortunately, John found a new spot that was only a short distance away. With help from his brother David, after seven months of gutting, designing, and constructing we were able to move in March of 2012. [You can now find us next to Darwin’s coffee shop on Mt. Auburn St.](/location-hours) (look for the blue awning).
 
 Now in its 4th decade Planet has securely established its status as a local landmark. Though the entertainment megastores have fallen — Harvard Square was once home to both a Tower Records and an HMV, two institutions your children will never have heard of — Cambridge and Boston have continued to support their independent record stores.
