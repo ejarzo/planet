@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Planet Records
-image: /img/planetrecordsexterior.jpg
+image: /img/planetrecordsdscn3234r.jpg
 heading: Welcome to Planet Records!
 subheading: Serving New England & the World for 30 Years
 mainpitch:
