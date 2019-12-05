@@ -50,7 +50,7 @@ export const IndexPageTemplate = props => {
             alt="Planet Records"
             style={{
               marginBottom: '1em',
-              height: 150,
+              height: '10em',
               filter: 'drop-shadow(-3px -3px 0px #003268)'
             }}
           />

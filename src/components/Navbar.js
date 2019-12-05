@@ -36,10 +36,12 @@ const Navbar = class extends React.Component {
       { label: 'About', to: '/about' },
       { label: 'Sell & Trade', to: '/sell-trade' },
       { label: 'Location & Hours', to: '/location-hours' },
-      { label: 'Products', to: '/products' },
+      { label: 'T-Shirts', to: '/tshirts' },
+      { label: 'FAQ', to: '/faq' }
+      // { label: 'Products', to: '/products' },
       // { label: 'Blog', to: '/blog' },
-      { label: 'Contact', to: '/contact' },
-      { label: 'Form Examples', to: '/contact/examples' }
+      // { label: 'Contact', to: '/contact' },
+      // { label: 'Form Examples', to: '/contact/examples' }
     ];
 
     return (
@@ -52,7 +54,11 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Planet Records" />
+              <img
+                src={logo}
+                alt="Planet Records"
+                style={{ height: '2em', maxHeight: 'none' }}
+              />
             </Link>
             {/* Hamburger menu */}
             <div
