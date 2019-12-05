@@ -1,118 +1,124 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql } from 'gatsby';
+import logo from '../img/planet-logo-test.svg';
+import Layout from '../components/Layout';
+import Features from '../components/Features';
+import BlogRoll from '../components/BlogRoll';
 
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+export const IndexPageTemplate = props => {
+  const {
+    image,
+    title,
+    heading,
+    subheading,
+    mainpitch,
+    description,
+    intro
+  } = props;
+  console.log(props);
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-}) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
+  return (
+    <div>
       <div
+        className="full-width-image margin-top-0"
         style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `center`,
+          backgroundAttachment: `fixed`
         }}
       >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+        <div
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
+            display: 'flex',
+            height: '150px',
             lineHeight: '1',
-            padding: '0.25em',
+            justifyContent: 'space-around',
+            alignItems: 'left',
+            flexDirection: 'column',
+            textAlign: 'center'
           }}
         >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {subheading}
-        </h3>
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              color: 'white',
+              lineHeight: '1',
+              position: 'absolute',
+              left: -9999,
+              padding: '0.25em'
+            }}
+          >
+            {title}
+          </h1>
+          <img
+            src={logo}
+            alt="Planet Records"
+            style={{
+              marginBottom: '1em',
+              height: 150,
+              filter: 'drop-shadow(-3px -3px 0px #003268)'
+            }}
+          />
+          {subheading && (
+            <h3
+              className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+              style={{
+                color: 'white',
+                lineHeight: '1',
+                padding: '0.25em',
+                filter: 'drop-shadow(-2px -2px 0px #003268)'
+              }}
+            >
+              {subheading}
+            </h3>
+          )}
+        </div>
       </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                  <div className="columns">
+                    <div className="column is-12">
+                      <h3 className="has-text-weight-semibold is-size-2">
+                        {heading}
+                      </h3>
+                      <p dangerouslySetInnerHTML={{ __html: description }} />
+                    </div>
                   </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  <Features gridItems={intro.blurbs} />
+                  <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/products">
+                        See all products
+                      </Link>
+                    </div>
                   </div>
-                </div>
-                <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
+                      Latest stories
                     </h3>
-                    <p>{description}</p>
-                  </div>
-                </div>
-                <Features gridItems={intro.blurbs} />
-                <div className="columns">
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
-                      See all products
-                    </Link>
-                  </div>
-                </div>
-                <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
-                  </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
+                    <BlogRoll />
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/blog">
+                        Read more
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-)
+      </section>
+    </div>
+  );
+};
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -122,12 +128,13 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-}
+    blurbs: PropTypes.array
+  })
+};
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  console.log('DATA', data);
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -141,18 +148,18 @@ const IndexPage = ({ data }) => {
         intro={frontmatter.intro}
       />
     </Layout>
-  )
-}
+  );
+};
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default IndexPage
+export default IndexPage;
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
@@ -172,6 +179,7 @@ export const pageQuery = graphql`
           title
           description
         }
+
         description
         intro {
           blurbs {
@@ -190,4 +198,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
