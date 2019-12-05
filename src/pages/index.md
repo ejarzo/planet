@@ -2,16 +2,16 @@
 templateKey: index-page
 title: Planet Records
 image: /img/planetrecordsdscn3234r-2.jpg
-heading: Welcome to Planet Records!
 subheading: Serving New England & the World for 30 Years
-mainpitch:
-  title: Welcome to Planet Records!
-  description: Welcome to Planet Records!
+heading: Welcome to Planet Records!
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Found today at [144 Mt. Auburn St, Cambridge, MA](/location-hours), Planet
+  Records was established in 1983 in Kenmore Square as a record lover’s
+  destination. Planet Records offers a wide selection of quality LPs, CDs and
+  DVDs. Our high standards for condition and selection have enabled Planet
+  Records to survive floods, fire, and the self-inflicted implosion of the
+  record industry. We are recognized as a go-to destination for collectors and
+  casual buyers.
 intro:
   blurbs:
     - image: /img/coffee.png
