@@ -10,9 +10,13 @@ John Damroth founded Planet Records in 1983. Though originally intending to open
 
 ## Harvard Branch & the Fire
 
+![](/img/jfk-store-bw.jpg)
+
 The Kenmore Square store was a great business success from the start. Possibly contributing to this was the fact that people used to actually buy music. In 1997 it finally became possible to open a second location in Harvard Square. The idea was that the Harvard annex, being smaller, would specialize in CDs. Sadly, the Planet empire was not to be. Eight months after the Harvard Square store opened, in 1998, a fire in Kenmore Square destroyed the building that our flagship location occupied. Heartbreaking as it was, the Mission would not be abandoned. The Harvard store underwent adjustments to accommodate an LP department. It wasn’t yet clear whether this was worthwhile: often, several days would pass without selling a single record. Today LPs sell pretty well once again, so there. 
 
 ## Move to Mt. Auburn St.
+
+![](/img/rainbow.jpg)
 
 Thirteen years later, in 2011, we were pressured to leave that space due to an astronomical rent hike. Fortunately, John found a new spot that was only a short distance away. With help from his brother David, after seven months of gutting, designing, and constructing we were able to move in March of 2012. [You can now find us next to Darwin’s coffee shop on Mt. Auburn St.](/location-hours) (look for the blue awning).
 
