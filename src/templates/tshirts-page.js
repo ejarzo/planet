@@ -2,61 +2,292 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import Features from '../components/Features';
+// import products from '../components/products';
+import Pricing from '../components/Pricing';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const TShirtsPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
+export const TShirtPageTemplate = props => {
+  const {
+    image,
+    title,
+    heading,
+    description,
+    intro,
+    main,
+    products,
+    fullImage,
+    pricing
+  } = props;
 
+  const {
+    heading: mainHeading,
+    description: mainDescription,
+    image1,
+    image2,
+    image3
+  } = main || {};
+
+  console.log('PRODUCTS', products);
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <PageContent className="content" content={content} />
+    <div className="content">
+      <div
+        className="full-width-image-container margin-top-0"
+        style={{
+          backgroundImage:
+            !!image &&
+            `url(${
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`
+        }}
+      >
+        <h2
+          className="has-text-weight-bold is-size-1"
+          style={{
+            boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
+            backgroundColor: '#f40',
+            color: 'white',
+            padding: '1rem'
+          }}
+        >
+          {title}
+        </h2>
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-7 is-offset-1">
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
+                <p>{description}</p>
+              </div>
+            </div>
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                {intro && <Features gridItems={intro.blurbs} />}
+                {main && (
+                  <div className="columns">
+                    <div className="column is-7">
+                      <h3 className="has-text-weight-semibold is-size-3">
+                        {mainHeading}
+                      </h3>
+                      <p>{mainDescription}</p>
+                    </div>
+                  </div>
+                )}
+                <div className="columns">
+                  {products.map(({ description, image }) => (
+                    <div className="column is-2" style={{ height: 200 }}>
+                      <PreviewCompatibleImage
+                        imageInfo={image}
+                        style={{ height: 100 }}
+                      />
+                      {description}
+                    </div>
+                  ))}
+                </div>
+                <div className="tile is-ancestor">
+                  <div className="tile is-vertical">
+                    <div className="tile">
+                      <div className="tile is-parent is-vertical">
+                        <article className="tile is-child">
+                          {image1 && (
+                            <PreviewCompatibleImage imageInfo={image1} />
+                          )}
+                        </article>
+                      </div>
+                      <div className="tile is-parent">
+                        <article className="tile is-child">
+                          {image2 && (
+                            <PreviewCompatibleImage imageInfo={image2} />
+                          )}
+                        </article>
+                      </div>
+                    </div>
+                    <div className="tile is-parent">
+                      <article className="tile is-child">
+                        {image3 && (
+                          <PreviewCompatibleImage imageInfo={image3} />
+                        )}
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                {/* <Testimonials testimonials={testimonials} /> */}
+                <div
+                  className="full-width-image-container"
+                  style={{
+                    backgroundImage:
+                      fullImage &&
+                      `url(${
+                        fullImage.childImageSharp
+                          ? fullImage.childImageSharp.fluid.src
+                          : fullImage
+                      })`
+                  }}
+                />
+                {pricing && (
+                  <div>
+                    <h2 className="has-text-weight-semibold is-size-2">
+                      {pricing.heading}
+                    </h2>
+                    <p className="is-size-5">{pricing.description}</p>
+                    <Pricing data={pricing.plans} />
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
-
-TShirtsPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func
+TShirtPageTemplate.propTypes = {
+  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  title: PropTypes.string,
+  heading: PropTypes.string,
+  description: PropTypes.string,
+  intro: PropTypes.shape({
+    blurbs: PropTypes.array
+  }),
+  main: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+  }),
+  products: PropTypes.array,
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  pricing: PropTypes.shape({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    plans: PropTypes.array
+  })
 };
 
-const TShirtsPage = ({ data }) => {
-  const { markdownRemark: post } = data;
-  console.log(data);
+const TShirtPage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+
   return (
     <Layout>
-      <TShirtsPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+      <TShirtPageTemplate
+        image={frontmatter.image}
+        title={frontmatter.title}
+        heading={frontmatter.heading}
+        description={frontmatter.description}
+        intro={frontmatter.intro}
+        main={frontmatter.main}
+        products={frontmatter.products}
+        fullImage={frontmatter.full_image}
+        pricing={frontmatter.pricing}
       />
     </Layout>
   );
 };
 
-TShirtsPage.propTypes = {
-  data: PropTypes.object.isRequired
+TShirtPage.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object
+    })
+  })
 };
 
-export default TShirtsPage;
+export default TShirtPage;
 
-export const TShirtsPageQuery = graphql`
-  query TShirtsPage($id: String!) {
+export const TShirtPageQuery = graphql`
+  query TShirtPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        image {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        heading
+        description
+        intro {
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
+          }
+          heading
+          description
+        }
+        main {
+          heading
+          description
+          image1 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image2 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 526, quality: 92) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+          image3 {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1075, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
+        }
+        products {
+          description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        full_image {
+          childImageSharp {
+            fluid(maxWidth: 526, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        pricing {
+          heading
+          description
+          plans {
+            description
+            items
+            plan
+            price
+          }
+        }
       }
     }
   }

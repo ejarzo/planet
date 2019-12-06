@@ -49,7 +49,7 @@ const Navbar = class extends React.Component {
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
-        style={{ background: '#003268' }}
+        style={{ background: '#003268', width: '100%', position: 'fixed' }}
       >
         <div className="container">
           <div className="navbar-brand">

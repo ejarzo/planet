@@ -5,6 +5,7 @@ import logo from '../img/planet-logo-test.svg';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const IndexPageTemplate = props => {
   const { image, title, heading, subheading, description, intro } = props;
@@ -12,16 +13,11 @@ export const IndexPageTemplate = props => {
 
   return (
     <div>
-      <div
-        className="full-width-image margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
-          backgroundPosition: `center`,
-          backgroundAttachment: `fixed`
-        }}
-      >
+      <PreviewCompatibleImage
+        style={{ height: 890, position: 'fixed', top: 0, width: '100%' }}
+        imageInfo={image}
+      />
+      <div className="full-width-image margin-top-0">
         <div
           style={{
             display: 'flex',
@@ -49,6 +45,7 @@ export const IndexPageTemplate = props => {
             src={logo}
             alt="Planet Records"
             style={{
+              marginTop: '2em',
               marginBottom: '1em',
               height: '10em',
               filter: 'drop-shadow(-3px -3px 0px #003268)'
@@ -69,7 +66,10 @@ export const IndexPageTemplate = props => {
           )}
         </div>
       </div>
-      <section className="section section--gradient">
+      <section
+        className="section section--gradient"
+        style={{ background: 'white', position: 'relative', zIndex: 20 }}
+      >
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -91,7 +91,7 @@ export const IndexPageTemplate = props => {
                       </Link>
                     </div>
                   </div>
-                  <div className="column is-12">
+                  {/* <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
                     </h3>
@@ -101,7 +101,7 @@ export const IndexPageTemplate = props => {
                         Read more
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
