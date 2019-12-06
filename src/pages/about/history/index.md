@@ -4,6 +4,8 @@ title: History
 ---
 ## Original Store: Kenmore Square
 
+![Planet Records in Kenmore Square](/img/kenmore-mr-butch.jpg)
+
 John Damroth founded Planet Records in 1983. Though originally intending to open in Harvard Square, he ended up selecting a space in Kenmore. The property wasn't originally designed for commercial use (it was an apartment), so it was necessary to tear apart and rebuild the interior (DIY style). Next door was The Rat, a fabled but now defunct venue, and across the street was Celebrations, a disco-era holdover club. Kenmore Square had an awful lot (maybe an excess...) of character(s) at the time. This was the era of the beloved Mr. Butch (who used to store his beers, among other things, in our refrigerator). 
 
 ## Harvard Branch & the Fire
