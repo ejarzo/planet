@@ -12,6 +12,25 @@ description: >-
   Records to survive floods, fire, and the self-inflicted implosion of the
   record industry. We are recognized as a go-to destination for collectors and
   casual buyers.
+
+
+  [Planet is open 7 days a week](/location-hours) and every day fresh inventory
+  is added to the already tempting stock. All genres are represented, reflecting
+  a depth that most stores can’t match.
+
+
+  Our staff is ready to help! We have buyers on duty at all times, ready to
+  offer [cash of trade](/sell-trade) for your collection.
+
+
+  ## Shopping Online
+
+
+  You can find us on [Amazon](http://www.amazon.com/shops/zzy49) and
+  [Discogs](http://www.discogs.com/seller/PlanetRecords). We also sell
+  [fixed-price listings](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_BIN=1)
+  and [auctions](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_Auction=1) on
+  eBay as `zzy49`.
 intro:
   blurbs:
     - image: /img/coffee.png
