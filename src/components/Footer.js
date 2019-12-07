@@ -67,6 +67,12 @@ const Footer = class extends React.Component {
                 >
                   Amazon
                 </a>
+                <a
+                  title="ebay"
+                  href="https://www.amazon.com/s?me=A3AFXHL86TBAH4&marketplaceID=ATVPDKIKX0DER"
+                >
+                  EBay
+                </a>
               </div>
             </div>
           </div>

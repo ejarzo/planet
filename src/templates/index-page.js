@@ -1,15 +1,17 @@
 import React from 'react';
+import showdown from 'showdown';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import logo from '../img/planet-logo-test.svg';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
-import BlogRoll from '../components/BlogRoll';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+
+const converter = new showdown.Converter();
 
 export const IndexPageTemplate = props => {
   const { image, title, heading, subheading, description, intro } = props;
-  console.log(props);
+  const descriptionHtml = converter.makeHtml(description);
 
   return (
     <div>
@@ -80,14 +82,17 @@ export const IndexPageTemplate = props => {
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p dangerouslySetInnerHTML={{ __html: description }} />
+                      <p
+                        dangerouslySetInnerHTML={{ __html: descriptionHtml }}
+                      />
                     </div>
                   </div>
+                  <h2>{intro.heading}</h2>
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
+                      <Link className="btn" to="/tshirts">
+                        See all merch
                       </Link>
                     </div>
                   </div>

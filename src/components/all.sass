@@ -71,12 +71,12 @@ $black: #2b2523
   border-radius: .25rem
   text-decoration: none
   font-weight: 700
-  color: #CC3700
+  color: $planet-blue
+  border: 2px solid $planet-blue
   text-align: center
-  -webkit-box-shadow: inset 0 0 0 2px #CC3700
-  box-shadow: inset 0 0 0 2px #f40
-  -webkit-transition: all .15s ease
-  transition: all .15s ease
+  &:hover
+    border-color: $planet-orange
+    color: $planet-orange
 
 .margin-top-0
   margin-top: 0 !important
@@ -158,3 +158,19 @@ a.navbar-item
 
 footer.footer
   background: $planet-blue
+
+p a
+  color: $planet-blue
+  position: relative
+  &:after
+    content: ''
+    position: absolute
+    height: 2px
+    width: 100%
+    background: $planet-orange
+    bottom: 1px
+    left: 0
+  &:hover, &:focus
+    color: $planet-orange
+    &:after
+      // background: transparent
