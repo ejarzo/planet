@@ -42,9 +42,7 @@ intro:
       text: >
         There’s also a university-style window decal and a Euro ‘VINYL’ bumper
         sticker. 
-  heading: Shopping Online
-  description: >
-    You can find us on Amazon and Discogs. We also sell fixed-price listings and
-    auctions on eBay as zzy49.
+  heading: T-Shirts and Stickers!
+  description: asdasd
 ---
 
