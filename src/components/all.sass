@@ -91,9 +91,6 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -112,6 +109,7 @@ $menu-label-color: $white-ter
   text-align: left
 .social
   padding: 2em
+  padding-top: 1.5em
 .social a
   padding: .5em .5em .3em .5em
   border-radius: 1em
@@ -157,7 +155,21 @@ a.navbar-item
   color: white
 
 footer.footer
+  padding: 3rem 0rem 0rem
   background: $planet-blue
+  color: white
+  .spacer
+    margin: 0 0.5em
+    color: $primary
+  a
+    color: white
+    &:hover, &:focus
+      color: $primary
+      background: transparent
+  svg
+    fill: currentColor
+    width: 1em
+    height: 1em
 
 p a
   color: $planet-blue

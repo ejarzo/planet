@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import logo from '../img/planet-logo-test.svg';
-import facebook from '../img/social/facebook.svg';
-import instagram from '../img/social/instagram.svg';
-import twitter from '../img/social/twitter.svg';
-import vimeo from '../img/social/vimeo.svg';
+import FacebookIcon from '../img/social/FacebookIcon';
+import InstagramIcon from '../img/social/InstagramIcon';
+import TwitterIcon from '../img/social/TwitterIcon';
+import DiscogsIcon from '../img/social/DiscogsIcon';
+import AmazonIcon from '../img/social/AmazonIcon';
+import EBayIcon from '../img/social/EBayIcon';
 
 const Footer = class extends React.Component {
   render() {
@@ -20,8 +22,11 @@ const Footer = class extends React.Component {
         <div className="content has-text-centered has-text-white-ter">
           <div className="container has-text-white-ter">
             <div>
-              <div className="">
-                144 Mt Auburn St, Cambridge, Ma 02138 • (617) 492-0693 •
+              <div style={{ fontWeight: 'bold' }}>
+                144 Mt Auburn St, Cambridge, Ma 02138
+                <span className="spacer">•</span>
+                (617) 492-0693
+                <span className="spacer">•</span>
                 planet@planet-records.com
               </div>
               <div className="content social">
@@ -30,48 +35,42 @@ const Footer = class extends React.Component {
                   target="blank"
                   href="https://www.facebook.com/PlanetRecords/"
                 >
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: '1em', height: '1em' }}
-                  />
+                  <FacebookIcon />
                 </a>
-                <a title="twitter" href="https://twitter.com/PlanetRecords83">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
+                <a
+                  title="twitter"
+                  target="blank"
+                  href="https://twitter.com/PlanetRecords83"
+                >
+                  <TwitterIcon />
                 </a>
                 <a
                   title="instagram"
                   target="blank"
                   href="https://www.instagram.com/planet_recordz/"
                 >
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: '1em', height: '1em' }}
-                  />
+                  <InstagramIcon />
                 </a>
                 <a
                   title="discogs"
+                  target="blank"
                   href="https://www.discogs.com/seller/PlanetRecords/profile"
                 >
-                  Discogs
+                  <DiscogsIcon />
                 </a>
                 <a
                   title="amazon"
+                  target="blank"
                   href="https://www.amazon.com/s?me=A3AFXHL86TBAH4&marketplaceID=ATVPDKIKX0DER"
                 >
-                  Amazon
+                  <AmazonIcon />
                 </a>
                 <a
                   title="ebay"
-                  href="https://www.amazon.com/s?me=A3AFXHL86TBAH4&marketplaceID=ATVPDKIKX0DER"
+                  target="blank"
+                  href="https://www.ebay.com/usr/zzy49"
                 >
-                  EBay
+                  <EBayIcon style={{ width: 'auto' }} />
                 </a>
               </div>
             </div>
