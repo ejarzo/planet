@@ -1,6 +1,6 @@
 ---
 templateKey: tshirts-page
-title: T-Shirts
+title: Planet Records Merch
 description: >-
   There are four Planet T-shirts to choose from. To declare your proud
   ‘University of Vinyl’ alumnus status, we’ve got more than just the shirt. For
@@ -16,9 +16,9 @@ description: >-
   ## Prices
 
 
-  * T-Shirts: $15 ($17 for XXL)
+  * **T-Shirts**: $15 ($17 for XXL)
 
-  * University of Vinyl Diploma, Decal, and Bumper Sticker: $5 Each
+  * **'University of Vinyl' Diploma, Decal, and Bumper Sticker**: $5 Each
 products:
   - description: >-
       While the University of Vinyl is a non-accredited metaphor, the diploma
