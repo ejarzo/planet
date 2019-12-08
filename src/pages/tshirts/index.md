@@ -1,6 +1,8 @@
 ---
 templateKey: tshirts-page
 title: Planet Records Merch
+image1: /img/shirt-rooster.jpg
+image2: /img/uov-ad.png
 description: >-
   There are four Planet T-shirts to choose from. To declare your proud
   ‘University of Vinyl’ alumnus status, we’ve got more than just the shirt. For
