@@ -1,12 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap')
 
-*
-  font-family: Nunito, sans-serif
-
-body, html
-  height: 100%
-
 // Config vars
 // Kaldi logo brand color: #FD461E
 $planet-orange: #FFBD00
@@ -17,6 +11,15 @@ $primary: $planet-orange
 $primary-invert: $planet-orange-invert
 $body-color: #333
 $black: #2b2523
+
+*
+  font-family: Nunito, sans-serif
+
+html
+  background: $planet-blue
+
+body, html
+  height: 100%
 
 .navbar .navbar-menu
   font-weight: bold
@@ -174,15 +177,16 @@ footer.footer
 p a
   color: $planet-blue
   position: relative
-  &:after
-    content: ''
-    position: absolute
-    height: 2px
-    width: 100%
-    background: $planet-orange
-    bottom: 1px
-    left: 0
+  text-decoration: underline
+  text-decoration-thickness: 2px
+  text-decoration-color: $planet-orange
+  text-underline-offset: 2px
   &:hover, &:focus
     color: $planet-orange
-    &:after
-      // background: transparent
+
+.shirt-box
+  color: $planet-blue
+  border: 1px solid $planet-blue
+  box-shadow: -4px 4px 0px $planet-blue
+  p
+    padding: 1em

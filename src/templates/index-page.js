@@ -1,17 +1,14 @@
 import React from 'react';
-import showdown from 'showdown';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import logo from '../img/planet-logo-test.svg';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-
-const converter = new showdown.Converter();
+import { MarkdownContent } from '../components/Content';
 
 export const IndexPageTemplate = props => {
   const { image, title, heading, subheading, description, intro } = props;
-  const descriptionHtml = converter.makeHtml(description);
 
   return (
     <div>
@@ -23,12 +20,14 @@ export const IndexPageTemplate = props => {
         <div
           style={{
             display: 'flex',
-            height: '150px',
+            width: '100%',
+            maxWidth: 350,
             lineHeight: '1',
             justifyContent: 'space-around',
             alignItems: 'left',
             flexDirection: 'column',
-            textAlign: 'center'
+            textAlign: 'center',
+            zIndex: 2,
           }}
         >
           <h1
@@ -38,7 +37,7 @@ export const IndexPageTemplate = props => {
               lineHeight: '1',
               position: 'absolute',
               left: -9999,
-              padding: '0.25em'
+              padding: '0.25em',
             }}
           >
             {title}
@@ -47,10 +46,9 @@ export const IndexPageTemplate = props => {
             src={logo}
             alt="Planet Records"
             style={{
-              marginTop: '2em',
-              marginBottom: '1em',
-              height: '10em',
-              filter: 'drop-shadow(-3px -3px 0px #003268)'
+              margin: '1em auto',
+              width: '90%',
+              filter: 'drop-shadow(-3px -3px 0px #003268)',
             }}
           />
           {subheading && (
@@ -60,7 +58,7 @@ export const IndexPageTemplate = props => {
                 color: 'white',
                 lineHeight: '1',
                 padding: '0.25em',
-                filter: 'drop-shadow(-2px -2px 0px #003268)'
+                filter: 'drop-shadow(-2px -2px 0px #003268)',
               }}
             >
               {subheading}
@@ -82,9 +80,7 @@ export const IndexPageTemplate = props => {
                       <h3 className="has-text-weight-semibold is-size-2">
                         {heading}
                       </h3>
-                      <p
-                        dangerouslySetInnerHTML={{ __html: descriptionHtml }}
-                      />
+                      <MarkdownContent content={description} />
                     </div>
                   </div>
                   <h2>{intro.heading}</h2>
@@ -124,8 +120,8 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array
-  })
+    blurbs: PropTypes.array,
+  }),
 };
 
 const IndexPage = ({ data }) => {
@@ -149,9 +145,9 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object
-    })
-  })
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default IndexPage;
