@@ -11,6 +11,12 @@ description: >-
   for your rear windshield and a Euro-style ‘VINYL’ bumper sticker.
 
 
+  ![](/img/shirt-rooster.jpg)
+
+
+  ![](/img/uov-ad.png)
+
+
   ## Prices
 
 
