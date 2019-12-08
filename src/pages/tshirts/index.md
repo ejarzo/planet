@@ -9,16 +9,16 @@ description: >-
   for your rear windshield and a Euro-style ‘VINYL’ bumper sticker.
 
 
-  You can order by phone (617 492 0693) or email us if you’d like us to issue a
-  Paypal invoice.
-
-
   ## Prices
 
 
   * **T-Shirts**: $15 ($17 for XXL)
 
   * **'University of Vinyl' Diploma, Decal, and Bumper Sticker**: $5 Each
+
+
+  You can order by phone (617 492 0693) or email us if you’d like us to issue a
+  Paypal invoice.
 products:
   - description: >-
       While the University of Vinyl is a non-accredited metaphor, the diploma
