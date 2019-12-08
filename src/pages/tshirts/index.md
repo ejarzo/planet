@@ -3,7 +3,8 @@ templateKey: tshirts-page
 title: T-Shirts
 description: >-
   There are four Planet T-shirts to choose from. Shirts are $15, except size
-  XXL, which is $17.
+  XXL, which is $17. You can order by phone (617 492 0693) or email us if you’d
+  like us to issue a Paypal invoice.
 
 
   To declare your proud ‘University of Vinyl’ alumnus status, we’ve got more
@@ -12,8 +13,14 @@ description: >-
 
 
   We’ve also got a University of Vinyl decal for your rear windshield and a
-  Euro-style ‘VINYL’ bumper sticker (both $5). You can order by phone (617 492
-  0693) or email us if you’d like us to issue a Paypal invoice.
+  Euro-style ‘VINYL’ bumper sticker (both $5). 
+
+
+  * T-Shirts: $15 ($17 for XXL)
+
+  * University of Vinyl Diploma, Decal, and Bumper Sticker: $5 Each
+
+  *
 products:
   - description: >-
       While the University of Vinyl is a non-accredited metaphor, the diploma
