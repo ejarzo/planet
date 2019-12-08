@@ -11,12 +11,6 @@ description: >-
   for your rear windshield and a Euro-style ‘VINYL’ bumper sticker.
 
 
-  ![](/img/shirt-rooster.jpg)
-
-
-  ![](/img/uov-ad.png)
-
-
   ## Prices
 
 
@@ -28,6 +22,10 @@ description: >-
   You can order by phone (617 492 0693) or email us if you’d like us to issue a
   Paypal invoice.
 products:
+  - description: The rooster shirt
+    image: /img/shirt-rooster.jpg
+  - description: University of Vinyl
+    image: /img/uov-ad.png
   - description: >-
       While the University of Vinyl is a non-accredited metaphor, the diploma
       ($5) currently represents a much better return on your investment than one
