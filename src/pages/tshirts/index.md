@@ -2,9 +2,6 @@
 templateKey: tshirts-page
 title: T-Shirts
 description: >-
-  ## T-Shirts
-
-
   There are four Planet T-shirts to choose from. Shirts are $15, except size
   XXL, which is $17.
 
