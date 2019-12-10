@@ -43,6 +43,6 @@ intro:
         There’s also a university-style window decal and a Euro ‘VINYL’ bumper
         sticker. 
   heading: T-Shirts and Stickers!
-  description: asdasd
+  description: test
 ---
 
