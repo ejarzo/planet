@@ -30,7 +30,7 @@ description: >-
   [Discogs](http://www.discogs.com/seller/PlanetRecords). We also sell
   [fixed-price listings](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_BIN=1)
   and [auctions](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_Auction=1) on
-  eBay as `zzy49`.
+  eBay.
 intro:
   blurbs:
     - image: /img/new-shirt.jpg
