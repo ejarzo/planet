@@ -14,7 +14,7 @@ We’ve added more room for vinyl to meet the recent increase in demand. The New
 
 As for CDs, we might be the last store in the region to have a truly broad CD department with substantial and deep jazz and classical collections. Fans of blues, bluegrass, folk, New Orleans music, country and other American traditions will always leave with something special. Of course the coverage extends to popular music, rock, and R+B. Other specializations (lounge, electronica, experimental music, soundtracks, a diverse international section, etc) are kept well-stocked.
 
-Despite being a primarily used shop, about a sixth of our CD inventory is new, sealed items. We also maintain a (mostly separate) inventory online, using eBay, Discogs and Amazon to reach mail-order customers around the world. Some of our local customers bid on auctions as well, so in-store pick-ups for online sales are welcome.
+Despite being a primarily used shop, about a sixth of our CD inventory is new, sealed items. We also maintain a (mostly separate) inventory online, using [eBay](https://www.ebay.com/usr/zzy49), [Discogs](https://www.discogs.com/seller/PlanetRecords/profile) and [Amazon](https://www.amazon.com/s?me=A3AFXHL86TBAH4&marketplaceID=ATVPDKIKX0DER) to reach mail-order customers around the world. Some of our local customers bid on auctions as well, so in-store pick-ups for online sales are welcome.
 
 Collectors also stop in to stock up on music library accessories like polybags, inner sleeves, jewel cases and LP mailers. 
 
