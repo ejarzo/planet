@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap')
 
 // Config vars
-// Kaldi logo brand color: #FD461E
-$planet-orange: #FFBD00
+$planet-orange: rgb(255, 189, 0)
 $planet-blue: #003268
 $planet-orange-invert: #fff
 
@@ -148,11 +147,29 @@ $menu-label-color: $white-ter
     max-width: 70%
     margin: 0 0 1em
 
-a.navbar-item
+a.navbar-item.site-link
   color: white
-  &:hover, &:focus
+  &:after
+    content: ''
+    position: absolute
+    bottom: 8px
+    width: 0.4em
+    height: 0.4em
+    border-radius: 50%
+    background: $planet-orange
+    display: block
+    left: calc(50% - 0.2em)
+    opacity: 0
+    @media (max-width:  1024px)
+      display: none
+
+  &:hover, &:focus, &.is-active
     color: $primary
     background: transparent
+    &:after
+      opacity: 0.5
+  &.is-active:after
+    opacity: 1
 
 .navbar-burger
   color: white
@@ -182,7 +199,9 @@ p a
   text-decoration-color: $planet-orange
   text-underline-offset: 2px
   &:hover, &:focus
-    color: $planet-orange
+    // color: $planet-orange
+    color: $planet-blue
+    text-decoration-color: $planet-blue
 
 .shirt-box
   font-size: 0.8em

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import logo from '../img/planet-logo-test.svg';
 import FacebookIcon from '../img/social/FacebookIcon';

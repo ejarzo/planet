@@ -2,34 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Features from '../components/Features';
-// import products from '../components/products';
-import Pricing from '../components/Pricing';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import { MarkdownContent } from '../components/Content';
 
 export const TShirtPageTemplate = props => {
-  const {
-    image,
-    title,
-    heading,
-    description,
-    intro,
-    main,
-    products,
-    fullImage,
-    pricing,
-  } = props;
+  const { title, description, products } = props;
 
-  const {
-    heading: mainHeading,
-    description: mainDescription,
-    image1,
-    image2,
-    image3,
-  } = main || {};
-
-  console.log('PRODUCTS', products);
   return (
     <section className="section section--gradient">
       <div className="container">
