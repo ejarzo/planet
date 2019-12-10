@@ -1,19 +1,23 @@
 ---
-templateKey: 'about-page'
-path: /about
-title: About our values
+templateKey: about-page
+title: About Planet Records
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### History
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Planet’s been around since 1983. [Read about the Kenmore store and more](/about/history). 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### What We Do
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+We make the most of our space. You can find a ton of quality material in our well-organized bins. CDs and LPs form the bulk of our inventory, but we also carry DVDs and 45s, plus smaller sections of books, blu-rays and even laserdiscs. (We don’t carry audio cassettes or VHS tapes.)
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+We’ve added more room for vinyl to meet the recent increase in demand. The New Arrivals section moves quickly, so many customers visit several times a week to make sure they don’t miss something they’ve been hunting down.
+
+As for CDs, we might be the last store in the region to have a truly broad CD department with substantial and deep jazz and classical collections. Fans of blues, bluegrass, folk, New Orleans music, country and other American traditions will always leave with something special. Of course the coverage extends to popular music, rock, and R+B. Other specializations (lounge, electronica, experimental music, soundtracks, a diverse international section, etc) are kept well-stocked.
+
+Despite being a primarily used shop, about a sixth of our CD inventory is new, sealed items. We also maintain a (mostly separate) inventory online, using eBay, Discogs and Amazon to reach mail-order customers around the world. Some of our local customers bid on auctions as well, so in-store pick-ups for online sales are welcome.
+
+Collectors also stop in to stock up on music library accessories like polybags, inner sleeves, jewel cases and LP mailers. 
+
+### Record Shopping in Harvard Square
+
+Harvard Square is a great place to go record hunting: Planet Records, [Armageddon](http://www.armageddonshopboston.com/index_boston.php), and [In Your Ear](http://iye.com/html_index.cfm?page=about) (which has another location in Boston, as well) are all only a few blocks apart. Regional clothing / tchotchke chain [Newbury Comics](https://www.newburycomics.com/) is here, too, and they still sell some records in their "trends" section (side eye). [Stereo Jacks](http://stereojacks.com/) is just a fifteen minute walk up Mass Ave and [Cheapo](http://www.cheaporecords.com/) is one T-stop (or a 20 minute walk) in the opposite direction. They’re all great shops worth visiting. At our store, we provide a free Record Store Guide detailing locations, descriptions and contact info for these locations and others — an excellent resource for muso tourists passing through town.
