@@ -10,6 +10,7 @@ import SellTradePagePreview from './preview-templates/SellTradePagePreview';
 import LocationHoursPagePreview from './preview-templates/LocationHoursPagePreview';
 import HistoryPagePreview from './preview-templates/HistoryPagePreview';
 import TShirtPagePreview from './preview-templates/TShirtPagePreview';
+import FAQPagePreview from './preview-templates/FAQPagePreview';
 
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
@@ -22,3 +23,4 @@ CMS.registerPreviewTemplate('sell-trade', SellTradePagePreview);
 CMS.registerPreviewTemplate('location-hours', LocationHoursPagePreview);
 CMS.registerPreviewTemplate('history', HistoryPagePreview);
 CMS.registerPreviewTemplate('tshirts', TShirtPagePreview);
+CMS.registerPreviewTemplate('faq', FAQPagePreview);

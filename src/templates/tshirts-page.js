@@ -55,7 +55,7 @@ export const TShirtPageTemplate = props => {
                 <MarkdownContent content={description} />
                 <div
                   className="columns is-multiline"
-                  style={{ flexDirection: 'row', marginTop: 30 }}
+                  style={{ marginTop: '2em' }}
                 >
                   {products.slice(2).map(({ description, image }) => (
                     <div className="column is-3">

@@ -16,15 +16,11 @@ const FeatureGrid = ({ gridItems }) => (
             paddingRight: 0,
           }}
         >
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '100%',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
-            </div>
+          <div
+            className="has-text-centered shirt-box"
+            style={{ marginBottom: '1em' }}
+          >
+            <PreviewCompatibleImage imageInfo={item} />
           </div>
           <p>{item.text}</p>
         </section>
