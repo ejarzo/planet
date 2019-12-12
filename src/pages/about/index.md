@@ -1,6 +1,7 @@
 ---
 templateKey: page-with-banner
 title: About Planet Records
+image: /img/behind-the-scenes.jpg
 ---
 
 ### History
