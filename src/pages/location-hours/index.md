@@ -1,9 +1,8 @@
 ---
 templateKey: location-hours-page
+image: /img/planetrecordsexterior.jpg
 title: Location & Hours
 ---
-![planet records exterior](/img/planetrecordsexterior.jpg "planet records exterior")
-
 ## Location
 
  <p><iframe style="background:#E5E3DF" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=144%2BMt%2BAuburn%2BSt%2BCambridge%2C%2BMA(PLANET+RECORDS)&amp;ie=UTF8&amp;z=15&amp;t=m&amp;iwloc=near&amp;output=embed" width="100%" height="300" frameborder="0"></iframe></p>
