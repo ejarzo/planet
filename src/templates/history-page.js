@@ -17,22 +17,23 @@ export const HistoryPageTemplate = props => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <div
-                className="columns is-multiline"
-                style={{ marginTop: '2em' }}
-              >
-                {sections.slice(2).map(({ description, image }) => (
-                  <div className="column is-3">
-                    <div className="shirt-box">
-                      <PreviewCompatibleImage
-                        imageInfo={image}
-                        //style={{ height: 100 }}
-                      />
-                      <MarkdownContent content={description} />
-                    </div>
+
+              {sections.map(({ description, image }) => (
+                <div
+                  className="columns is-multiline"
+                  style={{ marginTop: '2em' }}
+                >
+                  <div className="column is-6">
+                    <PreviewCompatibleImage
+                      imageInfo={image}
+                      //style={{ height: 100 }}
+                    />
                   </div>
-                ))}
-              </div>
+                  <div className="column is-6">
+                    <MarkdownContent content={description} />
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -52,15 +53,8 @@ const HistoryPage = ({ data }) => {
   return (
     <Layout>
       <HistoryPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-        main={frontmatter.main}
         sections={frontmatter.sections}
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   );

@@ -1,5 +1,5 @@
 ---
-templateKey: page-with-banner
+templateKey: history-page
 title: History
 sections:
   - description: >-
