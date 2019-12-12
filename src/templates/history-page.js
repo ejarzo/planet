@@ -23,6 +23,7 @@ export const HistoryPageTemplate = props => {
                     className="columns"
                     style={{
                       flexDirection: i % 2 ? 'row-reverse' : 'row',
+                      marginBottom: '3em',
                     }}
                   >
                     <div className="column" style={{ maxWidth: 400 }}>
@@ -30,9 +31,9 @@ export const HistoryPageTemplate = props => {
                     </div>
                     <div className="column">
                       {title && (
-                        <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
+                        <h3 className="title is-size-4 has-text-weight-bold is-bold-light">
                           {title}
-                        </h2>
+                        </h3>
                       )}
                       <MarkdownContent content={description} />
                     </div>
