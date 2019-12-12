@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: develop
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -31,14 +31,14 @@ collections:
         label: "About"
         name: "about"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-with-banner"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/faq/index.md"
         label: "FAQ"
         name: "faq"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "faq-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-with-banner"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/about/history/index.md"
@@ -52,14 +52,15 @@ collections:
         label: "Sell & Trade"
         name: "sell-trade"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "sell-trade-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-with-banner"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/location-hours/index.md"
         label: "Location & Hours"
         name: "location-hours"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "location-hours-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "page-with-banner"}
+          - {label: Image, name: image, widget: image}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
       - file: "src/pages/tshirts/index.md"

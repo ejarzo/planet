@@ -1,7 +1,8 @@
 ---
-templateKey: faq-page
+templateKey: page-with-banner
 title: FAQ
 ---
+
 **Can I buy something online to pick up at the store in person?**\
 Yes. You can pay at the store, too. Feel free to call to have us put anything from our online inventory on hold. The only exceptions are active eBay auctions (as opposed to buy-it-now listings). While you can still pay for and pick up auction items in the store, you have to win them first.
 

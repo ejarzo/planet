@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const LocationHoursTemplate = ({
+export const PageWithBannerTemplate = ({
   title,
   content,
   bannerImage,
@@ -48,18 +48,17 @@ export const LocationHoursTemplate = ({
   );
 };
 
-LocationHoursTemplate.propTypes = {
+PageWithBannerTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
 
-const LocationHoursPage = ({ data }) => {
+const PageWithBanner = ({ data }) => {
   const { markdownRemark: post } = data;
-  console.log('DATA', data);
   return (
     <Layout>
-      <LocationHoursTemplate
+      <PageWithBannerTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         bannerImage={post.frontmatter.image}
@@ -69,14 +68,14 @@ const LocationHoursPage = ({ data }) => {
   );
 };
 
-LocationHoursPage.propTypes = {
+PageWithBanner.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default LocationHoursPage;
+export default PageWithBanner;
 
-export const locationHoursPageQuery = graphql`
-  query LocationHoursPage($id: String!) {
+export const PageWithBannerQuery = graphql`
+  query PageWithBanner($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

@@ -1,10 +1,11 @@
 ---
-templateKey: about-page
+templateKey: page-with-banner
 title: About Planet Records
 ---
+
 ### History
 
-Planet’s been around since 1983. [Read about the Kenmore store and more](/about/history). 
+Planet’s been around since 1983. [Read about the Kenmore store and more](/about/history).
 
 ### What We Do
 
@@ -16,7 +17,7 @@ As for CDs, we might be the last store in the region to have a truly broad CD de
 
 Despite being a primarily used shop, about a sixth of our CD inventory is new, sealed items. We also maintain a (mostly separate) inventory online, using [eBay](https://www.ebay.com/usr/zzy49), [Discogs](https://www.discogs.com/seller/PlanetRecords/profile) and [Amazon](https://www.amazon.com/s?me=A3AFXHL86TBAH4&marketplaceID=ATVPDKIKX0DER) to reach mail-order customers around the world. Some of our local customers bid on auctions as well, so in-store pick-ups for online sales are welcome.
 
-Collectors also stop in to stock up on music library accessories like polybags, inner sleeves, jewel cases and LP mailers. 
+Collectors also stop in to stock up on music library accessories like polybags, inner sleeves, jewel cases and LP mailers.
 
 ### Record Shopping in Harvard Square
 

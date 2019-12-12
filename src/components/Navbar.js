@@ -78,6 +78,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered">
               {links.map(({ label, to }) => (
                 <Link
+                  key={to}
                   className="navbar-item site-link"
                   activeClassName="is-active"
                   to={to}

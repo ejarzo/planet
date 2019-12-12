@@ -1,19 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { LocationHoursTemplate } from '../../templates/location-hours-page';
+import { PageWithBannerTemplate } from '../../templates/page-with-banner';
 
 const LocationHoursPagePreview = ({ entry, widgetFor }) => (
-  <LocationHoursTemplate
+  <PageWithBannerTemplate
     title={entry.getIn(['data', 'title'])}
+    bannerImage={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
   />
 );
 
 LocationHoursPagePreview.propTypes = {
   entry: PropTypes.shape({
-    getIn: PropTypes.func
+    getIn: PropTypes.func,
   }),
-  widgetFor: PropTypes.func
+  widgetFor: PropTypes.func,
 };
 
 export default LocationHoursPagePreview;

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const MarkdownPagePreview = ({ Template, entry, widgetFor }) => (
   <Template
     title={entry.getIn(['data', 'title'])}
+    bannerImage={entry.getIn(['data', 'image'])}
     content={widgetFor('body')}
   />
 );
