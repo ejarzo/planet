@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { HistoryPageTemplate } from '../../templates/history-page';
 
 const HistoryPagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
   const entrySections = entry.getIn(['data', 'sections']);
   const sections = entrySections ? entrySections.toJS() : [];
 

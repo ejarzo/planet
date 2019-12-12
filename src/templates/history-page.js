@@ -9,7 +9,7 @@ export const HistoryPageTemplate = props => {
   const { title, sections } = props;
 
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -17,23 +17,28 @@ export const HistoryPageTemplate = props => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-
-              {sections.map(({ description, image }) => (
-                <div
-                  className="columns is-multiline"
-                  style={{ marginTop: '2em' }}
-                >
-                  <div className="column is-6">
-                    <PreviewCompatibleImage
-                      imageInfo={image}
-                      //style={{ height: 100 }}
-                    />
+              <div style={{ marginTop: '2em' }}>
+                {sections.map(({ description, title, image }, i) => (
+                  <div
+                    className="columns"
+                    style={{
+                      flexDirection: i % 2 ? 'row-reverse' : 'row',
+                    }}
+                  >
+                    <div className="column" style={{ maxWidth: 400 }}>
+                      <PreviewCompatibleImage imageInfo={image} />
+                    </div>
+                    <div className="column">
+                      {title && (
+                        <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
+                          {title}
+                        </h2>
+                      )}
+                      <MarkdownContent content={description} />
+                    </div>
                   </div>
-                  <div className="column is-6">
-                    <MarkdownContent content={description} />
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -77,10 +82,11 @@ export const HistoryPageQuery = graphql`
         title
         description
         sections {
+          title
           description
           image {
             childImageSharp {
-              fluid(maxWidth: 1000, quality: 100) {
+              fluid(maxWidth: 400, quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }

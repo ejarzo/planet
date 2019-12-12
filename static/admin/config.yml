@@ -47,8 +47,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "history-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Sections", name: sections, widget: list, fields: [{label: Description, name: description, widget: markdown}, {label: Image, name: image, widget: image}]}
+          - {label: "Sections", name: sections, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: markdown}, {label: Image, name: image, widget: image}]}
       - file: "src/pages/sell-trade/index.md"
         label: "Sell & Trade"
         name: "sell-trade"
