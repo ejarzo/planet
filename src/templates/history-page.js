@@ -2,10 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
+import { MarkdownContent } from '../components/Content';
 
-export const HistoryPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
+export const HistoryPageTemplate = props => {
+  const { title, sections } = props;
 
   return (
     <section className="section section--gradient">
@@ -16,7 +17,22 @@ export const HistoryPageTemplate = ({ title, content, contentComponent }) => {
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
+              <div
+                className="columns is-multiline"
+                style={{ marginTop: '2em' }}
+              >
+                {sections.slice(2).map(({ description, image }) => (
+                  <div className="column is-3">
+                    <div className="shirt-box">
+                      <PreviewCompatibleImage
+                        imageInfo={image}
+                        //style={{ height: 100 }}
+                      />
+                      <MarkdownContent content={description} />
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -26,27 +42,36 @@ export const HistoryPageTemplate = ({ title, content, contentComponent }) => {
 };
 
 HistoryPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string,
-  contentComponent: PropTypes.func
+  title: PropTypes.string,
+  sections: PropTypes.array,
 };
 
 const HistoryPage = ({ data }) => {
-  const { markdownRemark: post } = data;
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <HistoryPageTemplate
-        contentComponent={HTMLContent}
-        title={post.frontmatter.title}
-        content={post.html}
+        image={frontmatter.image}
+        title={frontmatter.title}
+        heading={frontmatter.heading}
+        description={frontmatter.description}
+        intro={frontmatter.intro}
+        main={frontmatter.main}
+        sections={frontmatter.sections}
+        fullImage={frontmatter.full_image}
+        pricing={frontmatter.pricing}
       />
     </Layout>
   );
 };
 
 HistoryPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+  }),
 };
 
 export default HistoryPage;
@@ -54,9 +79,19 @@ export default HistoryPage;
 export const HistoryPageQuery = graphql`
   query HistoryPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
-      html
       frontmatter {
         title
+        description
+        sections {
+          description
+          image {
+            childImageSharp {
+              fluid(maxWidth: 1000, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
     }
   }

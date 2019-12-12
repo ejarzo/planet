@@ -10,10 +10,11 @@ export const PageWithBannerTemplate = ({
   content,
   bannerImage,
   contentComponent,
+  className,
 }) => {
   const PageContent = contentComponent || Content;
   return (
-    <div>
+    <div className={className}>
       {bannerImage && (
         <div className="page-banner">
           <PreviewCompatibleImage
@@ -52,9 +53,10 @@ PageWithBannerTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
+  className: PropTypes.string,
 };
 
-const PageWithBanner = ({ data }) => {
+const PageWithBanner = ({ data, className }) => {
   const { markdownRemark: post } = data;
   return (
     <Layout>
@@ -63,6 +65,7 @@ const PageWithBanner = ({ data }) => {
         title={post.frontmatter.title}
         bannerImage={post.frontmatter.image}
         content={post.html}
+        className={className}
       />
     </Layout>
   );
@@ -70,6 +73,7 @@ const PageWithBanner = ({ data }) => {
 
 PageWithBanner.propTypes = {
   data: PropTypes.object.isRequired,
+  className: PropTypes.string,
 };
 
 export default PageWithBanner;

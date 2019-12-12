@@ -7,7 +7,7 @@ import TwitterIcon from '../img/social/TwitterIcon';
 import DiscogsIcon from '../img/social/DiscogsIcon';
 import AmazonIcon from '../img/social/AmazonIcon';
 import EBayIcon from '../img/social/EBayIcon';
-import ladyBanner from '../img/lady-banner-transparent.png';
+// import ladyBanner from '../img/lady-banner-transparent.png';
 
 const Footer = class extends React.Component {
   render() {

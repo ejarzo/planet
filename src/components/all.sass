@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700&display=swap')
 
 // Config vars
-$planet-orange: rgb(255, 189, 0)
+$planet-orange: #ffbd00
 $planet-blue: #003268
 $planet-orange-invert: #fff
 
@@ -226,7 +226,15 @@ p a
     position: absolute
     top: 50%
     left: 50%
-    padding: 10px 12px
-    transform: translate3d(-50%, -40%, 0)
+    padding: 10px 15px
+    transform: translate3d(-50%, -30%, 0)
   img
     object-position: center -50px !important
+
+.index-page-banner
+  img
+    top: -300px !important
+    filter: brightness(0.8)
+
+.history-page
+  background: red

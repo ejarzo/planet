@@ -12,16 +12,22 @@ export const IndexPageTemplate = props => {
 
   return (
     <div>
-      <PreviewCompatibleImage
-        style={{ height: 890, position: 'fixed', top: 0, width: '100%' }}
-        imageInfo={image}
-      />
       <div className="full-width-image margin-top-0">
+        <div
+          className="index-page-banner"
+          style={{ height: '100%', position: 'fixed', top: 0, width: '100%' }}
+        >
+          <PreviewCompatibleImage
+            style={{ height: '100%', width: '100%' }}
+            imageInfo={image}
+          />
+        </div>
         <div
           style={{
             display: 'flex',
             width: '100%',
-            maxWidth: 350,
+            maxWidth: 500,
+            padding: '0 1em',
             lineHeight: '1',
             justifyContent: 'space-around',
             alignItems: 'left',

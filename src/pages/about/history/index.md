@@ -1,18 +1,19 @@
 ---
-templateKey: history-page
+templateKey: page-with-banner
 title: History
 ---
+
 ## Original Store: Kenmore Square
 
 ![Planet Records in Kenmore Square](/img/kenmore-mr-butch.jpg)
 
-John Damroth founded Planet Records in 1983. Though originally intending to open in Harvard Square, he ended up selecting a space in Kenmore. The property wasn't originally designed for commercial use (it was an apartment), so it was necessary to tear apart and rebuild the interior (DIY style). Next door was The Rat, a fabled but now defunct venue, and across the street was Celebrations, a disco-era holdover club. Kenmore Square had an awful lot (maybe an excess...) of character(s) at the time. This was the era of the beloved Mr. Butch (who used to store his beers, among other things, in our refrigerator). 
+John Damroth founded Planet Records in 1983. Though originally intending to open in Harvard Square, he ended up selecting a space in Kenmore. The property wasn't originally designed for commercial use (it was an apartment), so it was necessary to tear apart and rebuild the interior (DIY style). Next door was The Rat, a fabled but now defunct venue, and across the street was Celebrations, a disco-era holdover club. Kenmore Square had an awful lot (maybe an excess...) of character(s) at the time. This was the era of the beloved Mr. Butch (who used to store his beers, among other things, in our refrigerator).
 
 ## Harvard Branch & the Fire
 
 ![](/img/jfk-store-bw.jpg)
 
-The Kenmore Square store was a great business success from the start. Possibly contributing to this was the fact that people used to actually buy music. In 1997 it finally became possible to open a second location in Harvard Square. The idea was that the Harvard annex, being smaller, would specialize in CDs. Sadly, the Planet empire was not to be. Eight months after the Harvard Square store opened, in 1998, a fire in Kenmore Square destroyed the building that our flagship location occupied. Heartbreaking as it was, the Mission would not be abandoned. The Harvard store underwent adjustments to accommodate an LP department. It wasn’t yet clear whether this was worthwhile: often, several days would pass without selling a single record. Today LPs sell pretty well once again, so there. 
+The Kenmore Square store was a great business success from the start. Possibly contributing to this was the fact that people used to actually buy music. In 1997 it finally became possible to open a second location in Harvard Square. The idea was that the Harvard annex, being smaller, would specialize in CDs. Sadly, the Planet empire was not to be. Eight months after the Harvard Square store opened, in 1998, a fire in Kenmore Square destroyed the building that our flagship location occupied. Heartbreaking as it was, the Mission would not be abandoned. The Harvard store underwent adjustments to accommodate an LP department. It wasn’t yet clear whether this was worthwhile: often, several days would pass without selling a single record. Today LPs sell pretty well once again, so there.
 
 ## Move to Mt. Auburn St.
 
