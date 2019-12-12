@@ -51,7 +51,6 @@ sections:
       continued to support their independent record stores.
     image: /img/rainbow.jpg
 ---
-
 ## Original Store: Kenmore Square
 
 ![Planet Records in Kenmore Square](/img/kenmore-mr-butch.jpg)
