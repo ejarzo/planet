@@ -3,9 +3,6 @@ templateKey: history-page
 title: History
 sections:
   - description: >-
-      ## Original Store: Kenmore Square
-
-
       John Damroth founded Planet Records in 1983. Though originally intending
       to open in Harvard Square, he ended up selecting a space in Kenmore. The
       property wasn't originally designed for commercial use (it was an
@@ -16,10 +13,8 @@ sections:
       This was the era of the beloved Mr. Butch (who used to store his beers,
       among other things, in our refrigerator).
     image: /img/kenmore-mr-butch.jpg
+    title: 'Original Store: Kenmore Square'
   - description: >-
-      ## Harvard Branch & the Fire
-
-
       The Kenmore Square store was a great business success from the start.
       Possibly contributing to this was the fact that people used to actually
       buy music. In 1997 it finally became possible to open a second location in
@@ -32,10 +27,8 @@ sections:
       this was worthwhile: often, several days would pass without selling a
       single record. Today LPs sell pretty well once again, so there.
     image: /img/jfk-store-bw.jpg
+    title: Harvard Branch & the Fire
   - description: >-
-      ## Move to Mt. Auburn St.
-
-
       Thirteen years later, in 2011, we were pressured to leave that space due
       to an astronomical rent hike. Fortunately, John found a new spot that was
       only a short distance away. With help from his brother David, after seven
@@ -50,6 +43,7 @@ sections:
       your children will never have heard of — Cambridge and Boston have
       continued to support their independent record stores.
     image: /img/rainbow.jpg
+    title: Move to Mt. Auburn St.
 ---
 ## Original Store: Kenmore Square
 
