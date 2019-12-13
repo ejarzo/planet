@@ -24,7 +24,7 @@ const Footer = class extends React.Component {
           <div className="container has-text-white-ter">
             <div style={{ padding: '0 1em' }}>
               <div style={{ fontWeight: 'bold' }}>
-                144 Mt Auburn St, Cambridge, Ma 02138
+                144 Mt Auburn St, Cambridge, MA 02138
                 <span className="spacer">•</span>
                 (617) 492-0693
                 <span className="spacer">•</span>

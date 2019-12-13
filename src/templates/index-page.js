@@ -52,7 +52,7 @@ export const IndexPageTemplate = props => {
             src={logo}
             alt="Planet Records"
             style={{
-              margin: '1em auto',
+              margin: '2em auto 1em',
               width: '90%',
               filter: 'drop-shadow(-3px -3px 0px #003268)',
             }}
