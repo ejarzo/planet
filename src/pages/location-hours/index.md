@@ -1,6 +1,6 @@
 ---
 templateKey: page-with-banner
-image: /img/planetrecordsexterior.jpg
+image: /img/planetrecordsexterior-2.jpg
 title: Location & Hours
 ---
 
