@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { TShirtPageTemplate } from '../../templates/tshirts-page';
 
 const TShirtPagePreview = ({ entry, getAsset }) => {
-  const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs']);
   const entryProducts = entry.getIn(['data', 'products']);
   const products = entryProducts ? entryProducts.toJS() : [];
 

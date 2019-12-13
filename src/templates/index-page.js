@@ -12,7 +12,7 @@ export const IndexPageTemplate = props => {
 
   return (
     <div>
-      <div className="full-width-image margin-top-0">
+      <div className="full-width-image margin-top-0" style={{ height: 450 }}>
         <div
           className="index-page-banner"
           style={{ height: '100%', position: 'fixed', top: 0, width: '100%' }}

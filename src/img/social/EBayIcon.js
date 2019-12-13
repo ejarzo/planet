@@ -2,8 +2,6 @@ import React from 'react';
 
 export default ({ style }) => (
   <svg
-    xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlnsSvg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/2000/svg"
     version="1.1"
     viewBox="0 0 300 120.32412"
