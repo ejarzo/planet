@@ -26,7 +26,7 @@ export const IndexPageTemplate = props => {
           style={{
             display: 'flex',
             width: '100%',
-            maxWidth: 500,
+            maxWidth: 450,
             padding: '0 1em',
             lineHeight: '1',
             justifyContent: 'space-around',
