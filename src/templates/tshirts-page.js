@@ -38,10 +38,7 @@ export const TShirtPageTemplate = props => {
                   {products.slice(2).map(({ description, image }) => (
                     <div className="column is-3">
                       <div className="shirt-box">
-                        <PreviewCompatibleImage
-                          imageInfo={image}
-                          //style={{ height: 100 }}
-                        />
+                        <PreviewCompatibleImage imageInfo={image} />
                         <p>{description}</p>
                       </div>
                     </div>
@@ -57,27 +54,9 @@ export const TShirtPageTemplate = props => {
 };
 
 TShirtPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
-  heading: PropTypes.string,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  main: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  }),
   products: PropTypes.array,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
 };
 
 const TShirtPage = ({ data }) => {
@@ -86,15 +65,9 @@ const TShirtPage = ({ data }) => {
   return (
     <Layout>
       <TShirtPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
-        heading={frontmatter.heading}
         description={frontmatter.description}
-        intro={frontmatter.intro}
-        main={frontmatter.main}
         products={frontmatter.products}
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   );
