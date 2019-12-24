@@ -1,0 +1,26 @@
+$rotation: 40deg;
+$duration: 0.8s;
+
+.BandName {
+  font-size: 3em;
+  text-shadow: 0 0 4px #fc0, 0 0 10px #ff7837, 0 0 20px #f7b2eb,
+    0 0 30px #ff8e6c, 0 0 40px rgba(255, 86, 153, 0.52),
+    0 0 50px rgba(255, 228, 157, 0.78), 0 0 60px rgba(255, 249, 113, 0.51),
+    0 0 70px rgba(204, 255, 95, 0.52);
+  font-family: Futura, sans-serif;
+  animation-name: appear;
+  animation-duration: $duration;
+  transition: all $duration cubic-bezier(1, 0.02, 0.66, 1.24);
+}
+
+@keyframes appear {
+  0% {
+    transform: rotate(-$rotation) scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+  }
+}

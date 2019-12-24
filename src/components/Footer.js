@@ -11,10 +11,16 @@ import EBayIcon from '../img/social/EBayIcon';
 
 const Footer = class extends React.Component {
   render() {
+    const { isTransparent } = this.props;
+    if (isTransparent) return null;
     return (
       <footer
         className="footer has-text-white-ter"
-        style={{ position: 'relative', zIndex: 20 }}
+        style={{
+          position: 'relative',
+          zIndex: 20,
+          background: isTransparent ? 'none' : '#003268',
+        }}
       >
         <div className="content has-text-centered">
           <img src={logo} alt="Planet Records" style={{ height: '5em' }} />

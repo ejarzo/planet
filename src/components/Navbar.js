@@ -38,18 +38,23 @@ const Navbar = class extends React.Component {
       { label: 'Location & Hours', to: '/location-hours' },
       { label: 'T-Shirts', to: '/tshirts' },
       { label: 'FAQ', to: '/faq' },
+      { label: 'Band Name Vortex', to: '/band-name-vortex' },
       // { label: 'Products', to: '/products' },
       // { label: 'Blog', to: '/blog' },
       // { label: 'Contact', to: '/contact' },
       // { label: 'Form Examples', to: '/contact/examples' }
     ];
-
+    const { isTransparent } = this.props;
     return (
       <nav
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
-        style={{ background: '#003268', width: '100%', position: 'fixed' }}
+        style={{
+          background: isTransparent ? 'none' : '#003268',
+          width: '100%',
+          position: 'fixed',
+        }}
       >
         <div className="container">
           <div className="navbar-brand">
