@@ -189,12 +189,13 @@ footer.footer {
       color: $primary;
       background: transparent;
     }
+    svg {
+      fill: currentColor;
+      width: 1em;
+      height: 1em;
+    }
   }
-  svg {
-    fill: currentColor;
-    width: 1em;
-    height: 1em;
-  }
+
   .lady-banner {
     position: absolute;
     left: 0;
@@ -259,11 +260,15 @@ p a {
     &__Logo {
       margin: 2em auto 1em;
       width: 90%;
+      stroke: $planet-blue;
+      stroke-width: 1px;
+      fill: $planet-orange;
       filter: drop-shadow(-3px -3px 0px $planet-blue);
     }
     h3 {
       padding: 0.25em;
-      filter: drop-shadow(-1px -1px 0px $planet-blue);
+      filter: drop-shadow(-2px -2px 0px $planet-blue);
+      font-size: 1.5em !important;
     }
   }
 }

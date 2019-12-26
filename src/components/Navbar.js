@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import logo from '../img/planet-logo-test.svg';
+import PlanetRecordsLogo from '../img/PlanetRecordsLogo';
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -12,23 +12,11 @@ const Navbar = class extends React.Component {
   }
 
   toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            });
-      }
-    );
+    this.setState({ active: !this.state.active }, () => {
+      this.state.active
+        ? this.setState({ navBarActiveClass: 'is-active' })
+        : this.setState({ navBarActiveClass: '' });
+    });
   };
 
   render() {
@@ -59,13 +47,8 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img
-                src={logo}
-                alt="Planet Records"
-                style={{ height: '2em', maxHeight: 'none' }}
-              />
+              <PlanetRecordsLogo style={{ height: '2em', maxHeight: 'none' }} />
             </Link>
-            {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"

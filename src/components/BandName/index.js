@@ -10,11 +10,10 @@ const transitionStyles = {
 };
 
 const BandName = ({ bandName }) => {
-  if (!bandName) return null;
   return (
     <TransitionGroup appear className="BandNames">
-      {[bandName].map(name => (
-        <CSSTransition unmountOnExit key={name} timeout={400}>
+      {bandName && [
+        <CSSTransition unmountOnExit key={bandName} timeout={400}>
           {state => (
             <div
               style={{
@@ -27,11 +26,11 @@ const BandName = ({ bandName }) => {
                 ...transitionStyles[state],
               }}
             >
-              <div className="BandName">{name}</div>
+              <div className="BandName">{bandName}</div>
             </div>
           )}
-        </CSSTransition>
-      ))}
+        </CSSTransition>,
+      ]}
     </TransitionGroup>
   );
 };

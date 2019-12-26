@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
-import logo from '../img/planet-logo-test.svg';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import { MarkdownContent } from '../components/Content';
+import PlanetRecordsLogo from '../img/PlanetRecordsLogo';
 
 export const IndexPageTemplate = props => {
   const { image, title, heading, subheading, description, intro } = props;
@@ -26,11 +26,7 @@ export const IndexPageTemplate = props => {
           <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen">
             {title}
           </h1>
-          <img
-            className="IndexPage__TitleContainer__Logo"
-            src={logo}
-            alt="Planet Records"
-          />
+          <PlanetRecordsLogo className="IndexPage__TitleContainer__Logo" />
           {subheading && (
             <h3 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen">
               {subheading}
