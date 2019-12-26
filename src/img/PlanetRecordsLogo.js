@@ -3,7 +3,7 @@ import React from 'react';
 export default ({ style, className }) => (
   <svg
     className={className}
-    style={style}
+    style={{ fill: 'white', ...style }}
     version="1.1"
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ export default ({ style, className }) => (
     xmlSpace="preserve"
   >
     <g id="Pmtcxj.tif">
-      <g fill="#FFF">
+      <g>
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"

@@ -260,9 +260,6 @@ p a {
     &__Logo {
       margin: 2em auto 1em;
       width: 90%;
-      stroke: $planet-blue;
-      stroke-width: 1px;
-      fill: $planet-orange;
       filter: drop-shadow(-3px -3px 0px $planet-blue);
     }
     h3 {
