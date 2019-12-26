@@ -2,21 +2,14 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
-import './all.sass';
+import './all.scss';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
 
-const TemplateWrapper = ({ children }) => {
+const Layout = ({ children, isTransparent }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        height: '100%',
-      }}
-    >
+    <div className="Layout">
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -55,11 +48,11 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      <Navbar isTransparent={isTransparent} />
       <div style={{ flexGrow: 1 }}>{children}</div>
-      <Footer />
+      <Footer isTransparent={isTransparent} />
     </div>
   );
 };
 
-export default TemplateWrapper;
+export default Layout;

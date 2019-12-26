@@ -1,23 +1,28 @@
 import React from 'react';
 
-import logo from '../img/planet-logo-test.svg';
+import Logo from '../img/PlanetRecordsLogo.js';
 import FacebookIcon from '../img/social/FacebookIcon';
 import InstagramIcon from '../img/social/InstagramIcon';
 import TwitterIcon from '../img/social/TwitterIcon';
 import DiscogsIcon from '../img/social/DiscogsIcon';
 import AmazonIcon from '../img/social/AmazonIcon';
 import EBayIcon from '../img/social/EBayIcon';
-// import ladyBanner from '../img/lady-banner-transparent.png';
 
 const Footer = class extends React.Component {
   render() {
+    const { isTransparent } = this.props;
+    if (isTransparent) return null;
     return (
       <footer
         className="footer has-text-white-ter"
-        style={{ position: 'relative', zIndex: 20 }}
+        style={{
+          position: 'relative',
+          zIndex: 20,
+          background: isTransparent ? 'none' : '#003268',
+        }}
       >
         <div className="content has-text-centered">
-          <img src={logo} alt="Planet Records" style={{ height: '5em' }} />
+          <Logo style={{ height: '5em' }} />
         </div>
         {/* <img className="lady-banner" src={ladyBanner} /> */}
         <div className="content has-text-centered has-text-white-ter">
