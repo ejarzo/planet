@@ -1,13 +1,15 @@
+// CSS WORMHOLE - CREDIT TO https://codepen.io/cyberpunk2077/pen/NjJxWe
+
 // Scene -----------------------------------------
 
 .band-name-vortex {
   background-color: #1e0059;
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   perspective: 5em;
   position: fixed;
   width: 100vw;
+  min-height: 450px;
 }
 
 .band-name-vortex::after {

@@ -1,7 +1,14 @@
 $rotation: 40deg;
 $duration: 0.8s;
 
+.BandNames {
+  flex: 1;
+  position: relative;
+  align-items: center;
+}
+
 .BandName {
+  margin-top: -10px;
   font-size: 3em;
   text-shadow: 0 0 4px #fc0, 0 0 10px #ff7837, 0 0 20px #f7b2eb,
     0 0 30px #ff8e6c, 0 0 40px rgba(255, 86, 153, 0.52),
@@ -11,6 +18,10 @@ $duration: 0.8s;
   animation-name: appear;
   animation-duration: $duration;
   transition: all $duration cubic-bezier(1, 0.02, 0.66, 1.24);
+  @media (max-width: 600px) {
+    font-size: 2em;
+    margin-top: 0px;
+  }
 }
 
 @keyframes appear {
@@ -18,7 +29,6 @@ $duration: 0.8s;
     transform: rotate(-$rotation) scale(0);
     opacity: 0;
   }
-
   100% {
     transform: rotate(0deg) scale(1);
     opacity: 1;

@@ -2,15 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import BandName from '../components/BandName';
-
-const transitionStyles = {
-  entering: { opacity: 1 },
-  entered: { opacity: 1 },
-  exiting: { opacity: 0, transform: 'rotate(20deg) scale(5)' },
-  exited: { opacity: 0, transform: 'rotate(20deg) scale(5)' },
-};
+import Vortex from '../components/Vortex';
 
 export const BandNameVortexTemplate = () => {
   const [bandName, setBandName] = useState('');
@@ -25,20 +18,20 @@ export const BandNameVortexTemplate = () => {
   };
 
   return (
-    <div style={{ minHeight: 600 }}>
-      <section className="band-name-vortex">
-        {[...new Array(2)].map((_, i) => (
-          <div className="cylinder" key={i}>
-            {[...new Array(32)].map((_, j) => (
-              <div className="side" key={`${i}${j}`} />
-            ))}
-          </div>
-        ))}
+    <section className="BandNameVortexPage">
+      <div>
+        <Vortex />
         <div className="container">
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <div className="section" style={{ minHeight: '100vh' }}>
-                <div>
+              <div
+                className="section"
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                }}
+              >
+                <div style={{ flex: '0 0 calc(100%/3)' }}>
                   <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                     Band Name Vortex
                   </h2>
@@ -50,7 +43,7 @@ export const BandNameVortexTemplate = () => {
                   </p>
                 </div>
                 <BandName bandName={bandName} />
-                <div className="button-container">
+                <div style={{ flex: '0 0 calc(100%/3)' }}>
                   <div>
                     <button
                       className="summon-band-name"
@@ -74,8 +67,8 @@ export const BandNameVortexTemplate = () => {
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

@@ -152,10 +152,11 @@ a.navbar-item.site-link {
     display: block;
     left: calc(50% - 0.2em);
     opacity: 0;
+    @media (max-width: 1024px) {
+      display: none;
+    }
   }
-  @media (max-width: 1024px) {
-    display: none;
-  }
+
   &:hover,
   &:focus,
   &.is-active {
@@ -272,10 +273,17 @@ p a {
   }
 }
 
-.band-name-vortex {
+.BandNameVortexPage {
   text-align: center;
   color: white;
   font-family: Futura, sans-serif;
+  .section {
+    height: 100vh;
+    @media (max-width: 400px) {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+  }
   p {
     font-style: italic;
   }
@@ -288,8 +296,9 @@ p a {
   .title {
     color: white;
     font-family: Futura, sans-serif;
-    margin-top: 2em;
+    margin-top: 1em;
   }
+
   .summon-band-name {
     font-size: 1.3em;
     color: white;
@@ -304,18 +313,14 @@ p a {
     cursor: pointer;
     transform: scale3d(1, 1, 1);
     transition: all 0.2s;
+    @media (max-width: 600px) {
+      font-size: 1em;
+    }
     &:hover {
       transform: scale3d(1.08, 1.08, 1);
     }
     &:active {
       transform: scale3d(1, 1, 1);
     }
-  }
-  .button-container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10vh;
-    z-index: 200;
   }
 }
