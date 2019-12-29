@@ -1,9 +1,9 @@
 // CSS WORMHOLE - CREDIT TO https://codepen.io/cyberpunk2077/pen/NjJxWe
 
 // Scene -----------------------------------------
-
+$background-color: #190247;
 .band-name-vortex {
-  background-color: #1e0059;
+  background-color: $background-color;
   height: 100vh;
   margin: 0;
   perspective: 5em;
@@ -15,7 +15,7 @@
 .band-name-vortex::after {
   background-color: inherit;
   border-radius: 50%;
-  box-shadow: 0 0 2em 2em #1e0059;
+  box-shadow: 0 0 2em 2em $background-color;
   content: '';
   height: 1em;
   left: 50%;
@@ -48,7 +48,7 @@
 // Side ------------------------------------------
 
 .side {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/231848/fractal-fire-sky-seamless-background.jpg);
+  background-image: url(../img/vortex-background.jpg);
   background-size: 32em 10em;
   filter: hue-rotate(-100deg) saturate(0.7);
   height: 40em;
