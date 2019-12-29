@@ -695,8 +695,81 @@ generalBandNames: |-
   ’Lil Dim
   ★NSTINK
   ★NSYNC Clown Posse
-nsfwBandNames: |-
-  test3
-  test4
+nsfwBandNames: |
+  12 Girls 1 Cup
+  2 Sac
+  Amy Whorehouse
+  Antony and His Johnson
+  Asswad
+  Balsac
+  Bananarammer
+  Bat Penatar
+  Circle Jerky Boys
+  Clit Blister
+  Conway Titty
+  Crosby Stills & Nashville Pussy
+  Deep Shit Purple
+  Dildosaur Jr.
+  Douche Grammophon
+  Eddie Cockring
+  Emission of Sperma
+  Enema Collective
+  Esinem
+  Gang Bang of Four
+  Gloryhole Estefan
+  Hootie and the Blowjobs
+  Iggy Poop and the Stool Juice
+  Jack Assady
+  Jackoff Pastorius
+  Jack’s Johnson
+  Jascha Whorenstein
+  Jimmy Eat Shit
+  Jizzy Gillespie
+  John Wesley Hard-On
+  Jon Spencer Ass Explosion
+  Kojackulation
+  Legendary Pink Slot
+  Master Beta Band
+  Medeski Morning & Wood
+  Milftoast
+  My Morning Jackoff
+  Natalie McMasturbate
+  Nine Inch Males
+  Nine Inch Nilsson
+  Phallus Pooper
+  Poontangle
+  Pretty Shitty Dirt Band
+  Pubic Image Ltd.
+  Public Enema
+  Pussy Riot Dolls
+  Queef Latina
+  Quiet Pussy Riot
+  REO Speedwanker
+  Sandy Bullshit
+  Savage Fart Huffer
+  Saxophone Colostomy
+  Scat Power
+  Shit Biscuit
+  Shitney Spears
+  Spyro Gyna
+  Stereolabia
+  Sugar Pubes
+  Sweet Honey In My Butt
+  Tampon Red
+  Tanya Sucker
+  The Jacque Offe Quintet
+  The Mamas & the Pap Smears
+  The Squirrel Butt Grippers
+  They Might Be Vaginas
+  Tit Merrit
+  Torn Anus
+  Travis Tit
+  Trevor Horny
+  Vagina X Performance
+  Vaginasaur Jr.
+  Vulva Underground
+  Weasel Queef
+  Weener
+  Wishbone Ass
 ---
 
