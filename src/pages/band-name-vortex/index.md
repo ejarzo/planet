@@ -8,5 +8,11 @@ description: >-
   name.
 buttonLabel: Summon Forth A Band Name
 checkboxLabel: ALLOW PRURIENT FILTH
+generalBandNames: |-
+  test1
+  test2
+nsfwBandNames: |-
+  test3
+  test4
 ---
 
