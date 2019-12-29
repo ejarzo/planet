@@ -75,7 +75,7 @@ generalBandNames: |-
   Boney M. Ward
   Bonnie Second Raitt
   Bono Jovi
-  Booger T &amp; the MG’s
+  Booger T & the MG’s
   Bore-issey
   Bored in Canada
   Boss Hug
@@ -84,12 +84,12 @@ generalBandNames: |-
   Brian Flip Wilson
   Brigitte Bar-None
   Brony Bennett
-  Brooks &amp; Dung
+  Brooks & Dung
   Bryan Adam Ant
   Buffy St. Etienne
   Bug Zappa
   Burning Britney Spear
-  Burt &amp; Ernie Bacharach
+  Burt & Ernie Bacharach
   Burt Back-a-rub
   Butt Midler
   Buzzcoccyx
@@ -171,8 +171,8 @@ generalBandNames: |-
   Durante Column
   Dvörk
   D’Angelo Biafra
-  E = MC<sup>HAMMER</sup>
-  Eartha Kitt &amp; Fire
+  E = MC HAMMER
+  Eartha Kitt & Fire
   Echo and the B.M.
   Ed Zeppelin
   Edgar Allen Coe
@@ -191,8 +191,8 @@ generalBandNames: |-
   Eric Crapton
   Error Smith
   Erykah Bidet
-  Eva Cassidy &amp; the Sundance Kid
-  Excuse Me &amp; the Banshees
+  Eva Cassidy & the Sundance Kid
+  Excuse Me & the Banshees
   Face of Mace
   Faith Hill No More
   Falco Jimenez
@@ -250,7 +250,7 @@ generalBandNames: |-
   Herman’s Head Hermits
   Hillary Duff Beer
   Holly Archers of Loaf
-  Hootie &amp; the Kurtis Blowfish
+  Hootie & the Kurtis Blowfish
   Howard Taint
   Huey Lee Lewis
   Huu-Skuur-Dü
@@ -263,7 +263,7 @@ generalBandNames: |-
   Iron Made-In-My-Pants
   Iron Maidenform
   Itty Bitty Shirt Band
-  J Geils Giles &amp; Fripp
+  J Geils Giles & Fripp
   J. Mucus
   Jack’s Johnson
   Jaco Ono
@@ -280,15 +280,15 @@ generalBandNames: |-
   Jehovah’s Witness Rejection Program
   Jello B. Opera
   Jellyfish Moron
-  Jesus &amp; Mary J Blige
+  Jesus & Mary J Blige
   Jesus Philbin
-  Jewel &amp; the Gang
+  Jewel & the Gang
   Jill Scott Heron
   Jimmy Stiff
   Joan Bias
   Joe Eloy
   Joe Meek-a-Mouse
-  John Abercrombie &amp; Fitch
+  John Abercrombie & Fitch
   John Booger Summercamp
   John Cagefight
   John Cougar Melancholy
@@ -315,15 +315,15 @@ generalBandNames: |-
   Kruddy and Dorkmeister
   Krusty Gail
   L.A.I. Bach
-  Lady &amp; The Cramps
+  Lady & The Cramps
   Lady Zsa Zsa
   Lamb of Todd Rundgren
-  Lambert Hendricks &amp; Gross
+  Lambert Hendricks & Gross
   Lamonte Dung
   Land of Talk Talk Talking Heads
   Last Exit Wound
   Later Skinny
-  Lee Ranaldo &amp; The Loaf
+  Lee Ranaldo & The Loaf
   Lee ‘Refrigerator’ Perry
   Lenny Kraftwerk
   Leon Redbone Ash
@@ -334,7 +334,7 @@ generalBandNames: |-
   Lindsey Buckethead
   Lint Bizkit
   Lisa Lobotomy
-  LL Kool J &amp; the the Gang
+  LL Kool J & the the Gang
   Llama del Ray
   Loretta Lynyrd
   Los Hobos
@@ -383,7 +383,7 @@ generalBandNames: |-
   Michael Bublébath
   Michael Bubléwrap
   Mick Jaegermeister
-  Mike Love &amp; Special Sauce
+  Mike Love & Special Sauce
   Miley Cypress Hill
   Millennium Farrakhan
   Milton Berle Haggard
@@ -398,7 +398,7 @@ generalBandNames: |-
   Mosh Pit and the Pendulum
   Mudcrotch
   Mullet Plug
-  Mumford &amp; Sunn O)))
+  Mumford & Sunn O)))
   My Chemical Bromance
   Nat King Coldplay
   Nat King Crimson
@@ -447,7 +447,7 @@ generalBandNames: |-
   Pat My Hiney
   Pat ‘Crystal’ Metheny
   Patsy Clown
-  Patti LaBelle &amp; Sebastian
+  Patti LaBelle & Sebastian
   Pattismith Black Mambazo
   Paul McCarthy
   Paul McFartney
@@ -485,7 +485,7 @@ generalBandNames: |-
   Randy Travesty
   Recapitated
   REM Speedwagon
-  Ren &amp; Stompy Jones
+  Ren & Stompy Jones
   Rice-a-roni Size
   Richard Heck
   Ricky Nilsson
@@ -516,7 +516,7 @@ generalBandNames: |-
   Satana
   Schnittkickers
   Scott Walker Texas Ranger
-  Scrawl &amp; Goates
+  Scrawl & Goates
   Screamin’ Johns Hopkins
   Screamin’ Stephen Hawkins
   Scritti Politti Dirt Band
@@ -528,7 +528,7 @@ generalBandNames: |-
   Sharon ISBN
   Shawn Colon
   Shawn Mullet
-  Simon &amp; Garfield
+  Simon & Garfield
   Siouxsie and the Headcheese
   Siouxsie Quattro
   Sir Walter Walrus
@@ -546,15 +546,15 @@ generalBandNames: |-
   Smell Tormé
   Smelly Fartado
   Smelly Joel
-  Snoozy &amp; the Banshees
+  Snoozy & the Banshees
   Snort Master
   Snot Dogs
-  Sodom &amp; Cremora
+  Sodom & Cremora
   Son Volta
   Sophie B. Hawkwind
   Sophie Mutters
   Soup Draggity Dragons
-  Soupy &amp; The Cream Cheese
+  Soupy & The Cream Cheese
   Space Ghost Killah
   Spencer Rabies
   Spring Heeled Jackass
@@ -586,7 +586,7 @@ generalBandNames: |-
   Sweat Shop Boys
   Sweaty Pudding
   Syndrome of a Downs
-  Techno &amp; the Bunnymen
+  Techno & the Bunnymen
   Teenage Mutant Ninja Turtle Island Quartet
   Temple of Dog the Bounty Hunter
   The Active Cultures
@@ -594,7 +594,7 @@ generalBandNames: |-
   The Backwoods Boys
   The Black Flairs
   The Byrps
-  The Captain &amp; Shaquille O’Neal
+  The Captain & Shaquille O’Neal
   The Conjugal Visitors
   The Crapenters
   The D.O.C. Watson
@@ -616,7 +616,7 @@ generalBandNames: |-
   The Meatles
   The Minuterice Men
   The Notorious Jar-Jar B.I.G.G.S.
-  The Nusrat Fateh Ali Khan &amp; BBQ Show
+  The Nusrat Fateh Ali Khan & BBQ Show
   The odB’s
   The Peter Green Day la Soul II Soul Survivors
   The Pornophonic Spree
@@ -627,7 +627,7 @@ generalBandNames: |-
   The Stye Council
   The Thelonious Monkees
   The Tyrds
-  The Umbrellas of Sonny &amp; Cherbourg
+  The Umbrellas of Sonny & Cherbourg
   The Whamned
   The Whodini
   They Might Be Bosstones
@@ -699,4 +699,3 @@ nsfwBandNames: |-
   test3
   test4
 ---
-
