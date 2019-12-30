@@ -8,10 +8,10 @@ description: >-
   Found today at [144 Mt. Auburn St, Cambridge, MA](/location-hours), Planet
   Records was established in 1983 in Kenmore Square as a record lover’s
   destination. Planet Records offers a wide selection of quality LPs, CDs and
-  DVDs. Our high standards for condition and selection have enabled Planet
-  Records to survive floods, fire, and the self-inflicted implosion of the
-  record industry. We are recognized as a go-to destination for collectors and
-  casual buyers.
+  DVDs and music books. Our high standards for condition and selection have
+  enabled Planet Records to survive floods, fire, and the self-inflicted
+  implosion of the record industry. We are recognized as a go-to destination for
+  collectors and casual buyers.
 
 
   [Planet is open 7 days a week](/location-hours) and every day fresh inventory
@@ -19,14 +19,14 @@ description: >-
   a depth that most stores can’t match.
 
 
-  Our staff is ready to help! We have buyers on duty at all times, ready to
-  offer [cash of trade](/sell-trade) for your collection.
+  Our staff is ready to help! We have buyers on duty every day, ready to offer
+  [cash of trade](/sell-trade) for your collection.
 
 
   ## Shopping Online
 
 
-  You can find us on [Amazon](http://www.amazon.com/shops/zzy49) and
+  You can find us on [Amazon](http://www.amazon.com/shops/zzy49), Reverb.com and
   [Discogs](http://www.discogs.com/seller/PlanetRecords). We also sell
   [fixed-price listings](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_BIN=1)
   and [auctions](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_Auction=1) on
