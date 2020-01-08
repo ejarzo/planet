@@ -246,7 +246,7 @@ p a {
   &__TitleContainer {
     display: flex;
     width: 100%;
-    max-width: 450px;
+    max-width: 500px;
     padding: 0 1em;
     line-height: 1;
     align-items: left;
@@ -254,6 +254,8 @@ p a {
     text-align: center;
     z-index: 2;
     color: white;
+    filter: drop-shadow(-1px -1px 0px $planet-blue);
+
     h1 {
       position: absolute;
       left: -9999px;
@@ -261,12 +263,13 @@ p a {
     &__Logo {
       margin: 2em auto 1em;
       width: 90%;
-      filter: drop-shadow(-3px -3px 0px $planet-blue);
+      filter: drop-shadow(-5px -5px 0px $planet-blue);
     }
     h3 {
       padding: 0.25em;
+      color: $planet-orange;
       filter: drop-shadow(-2px -2px 0px $planet-blue);
-      font-size: 1.5em !important;
+      font-size: 1.8em !important;
     }
   }
 }

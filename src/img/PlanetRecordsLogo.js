@@ -3,7 +3,7 @@ import React from 'react';
 export default ({ style, className }) => (
   <svg
     className={className}
-    style={{ fill: 'white', ...style }}
+    style={{ fill: '#ffbd00', ...style }}
     version="1.1"
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
