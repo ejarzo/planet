@@ -25,14 +25,7 @@ description: >-
   sometimes appointments are necessary.
 
 
-  ## Shopping Online
-
-
-  You can find us on [Amazon](http://www.amazon.com/shops/zzy49), Reverb.com and
-  [Discogs](http://www.discogs.com/seller/PlanetRecords). We also sell through
-  [fixed-price listings](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_BIN=1)
-  and [auctions](http://www.ebay.com/sch/zzy49/m.html?rt=nc&LH_Auction=1) on
-  eBay.
+  ## 
 
 
   ## Take a Look Around!
