@@ -243,6 +243,22 @@ p a {
   }
 }
 .IndexPage {
+  section {
+    background: white;
+    position: relative;
+    z-index: 20;
+    &.inverted {
+      background-color: #eaeaea;
+      color: $planet-blue;
+      h2 {
+        color: $planet-blue;
+      }
+    }
+  }
+  .content section {
+    background: transparent;
+    margin-bottom: 3em;
+  }
   &__TitleContainer {
     display: flex;
     width: 100%;
@@ -329,5 +345,20 @@ p a {
     &:active {
       transform: scale3d(1, 1, 1);
     }
+  }
+}
+
+.RetailerCard {
+  display: block;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  border-radius: 2px;
+  transition: all 0.2s;
+  background: white;
+  transform: scale(1);
+  &:hover {
+    box-shadow: 0 5px 18px -3px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
   }
 }

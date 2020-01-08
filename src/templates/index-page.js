@@ -8,7 +8,16 @@ import { MarkdownContent } from '../components/Content';
 import PlanetRecordsLogo from '../img/PlanetRecordsLogo';
 
 export const IndexPageTemplate = props => {
-  const { image, title, heading, subheading, description, intro } = props;
+  const {
+    image,
+    title,
+    heading,
+    subheading,
+    description,
+    intro,
+    shoppingOnlineSection,
+    lowerSection,
+  } = props;
 
   return (
     <div className="IndexPage">
@@ -34,32 +43,100 @@ export const IndexPageTemplate = props => {
           )}
         </div>
       </div>
-      <section
-        className="section section--gradient"
-        style={{ background: 'white', position: 'relative', zIndex: 20 }}
-      >
+
+      <section>
         <div className="container">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <MarkdownContent content={description} />
+                  <section>
+                    <div className="columns">
+                      <div className="column is-12">
+                        <h3 className="has-text-weight-semibold is-size-2">
+                          {heading}
+                        </h3>
+                        <MarkdownContent content={description} />
+                      </div>
                     </div>
-                  </div>
-                  <h2>{intro.heading}</h2>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/tshirts">
-                        See all merch
-                      </Link>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="inverted">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="content">
+                  {shoppingOnlineSection && (
+                    <div>
+                      <div style={{ marginBottom: '1em' }}>
+                        <MarkdownContent
+                          content={shoppingOnlineSection.description}
+                        />
+                      </div>
+                      <div className="columns">
+                        {shoppingOnlineSection.links.map(
+                          ({ title, url, image }) => (
+                            <div className="column is-3">
+                              <a
+                                href={url}
+                                target="blank"
+                                className="RetailerCard"
+                                title={title}
+                              >
+                                <div
+                                  style={{
+                                    height: 80,
+                                    backgroundImage: `url(${image.publicURL})`,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'contain',
+                                    backgroundPosition: 'center',
+                                  }}
+                                />
+                                {/* <h3>{title}</h3> */}
+                              </a>
+                            </div>
+                          )
+                        )}
+                      </div>
                     </div>
-                  </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <div className="content">
+                  {lowerSection && (
+                    <section>
+                      <MarkdownContent content={lowerSection} />
+                    </section>
+                  )}
+
+                  <section>
+                    <h2>{intro.heading}</h2>
+                    <Features gridItems={intro.blurbs} />
+                    <div className="columns">
+                      <div className="column is-12 has-text-centered">
+                        <Link className="btn" to="/tshirts">
+                          See all merch
+                        </Link>
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </div>
             </div>
@@ -85,14 +162,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
   return (
     <Layout>
-      <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-      />
+      <IndexPageTemplate {...frontmatter} />
     </Layout>
   );
 };
@@ -121,7 +191,19 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        shoppingOnlineSection {
+          description
+          links {
+            title
+            url
+            image {
+              extension
+              publicURL
+            }
+          }
+        }
         description
+        lowerSection
         intro {
           blurbs {
             image {
