@@ -10,7 +10,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-logo_url: '../img/planet-logo-orange.png'
+logo_url: '../img/planet-logo-blue.png'
 
 collections:
   - name: "pages"
