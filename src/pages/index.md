@@ -25,7 +25,7 @@ description: >-
   sometimes appointments are necessary.
 shoppingOnlineSection:
   description: |-
-    ## Shopping Online
+    ## Shop Online
 
     Planet Records sells online through the following retailers:
   links:
