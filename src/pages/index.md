@@ -53,4 +53,17 @@ shoppingOnlineSection:
     - title: eBay
       image: /img/ebay_logo.svg
       url: 'https://www.ebay.com/usr/zzy49'
+intro:
+  blurbs:
+    - image: /img/new-shirt.jpg
+      text: >
+        We sell four T-shirts: the classic dog and rooster shirts, the
+        University of Vinyl shirt (which you can buy with a custom diploma), and
+        a fabulous fourth shirt.
+    - image: /img/uov-ad.png
+      text: >
+        There’s also a university-style window decal and a Euro ‘VINYL’ bumper
+        sticker.
+  heading: T-Shirts and Stickers!
+  description: test
 ---
