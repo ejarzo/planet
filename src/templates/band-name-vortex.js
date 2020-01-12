@@ -1,20 +1,46 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import BandName from '../components/BandName';
 import Vortex from '../components/Vortex';
+import { shuffle } from '../utils/shuffle';
 
-export const BandNameVortexTemplate = () => {
-  const [bandName, setBandName] = useState('');
+export const BandNameVortexTemplate = props => {
+  const {
+    title,
+    description,
+    buttonLabel,
+    checkboxLabel,
+    generalBandNames,
+    nsfwBandNames,
+  } = props;
+
+  const [index, setIndex] = useState(0);
   const [includeNSFW, setIncludeNSFW] = useState(false);
-  const url = `/.netlify/functions/get-band-name/?includeNSFW=${includeNSFW}`;
-  const fetchBandName = () => {
-    fetch(url)
-      .then(response => response.json())
-      .then(({ bandName }) => {
-        setBandName(bandName);
-      });
+  const listContainer = useRef([
+    '',
+    ...shuffle([...generalBandNames, ...nsfwBandNames]),
+  ]);
+
+  const shuffledList = listContainer.current;
+  const { value: bandName } = shuffledList[index];
+
+  const setBandName = () => {
+    let nextI = 1;
+    if (!includeNSFW) {
+      while (
+        shuffledList[index + nextI] &&
+        shuffledList[index + nextI].isNsfw
+      ) {
+        nextI++;
+      }
+    }
+    if (shuffledList[index + nextI]) {
+      setIndex(index + nextI);
+    } else {
+      setIndex(0);
+    }
   };
 
   return (
@@ -22,46 +48,42 @@ export const BandNameVortexTemplate = () => {
       <div>
         <Vortex />
         <div className="container">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div
-                className="section"
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                }}
-              >
-                <div style={{ flex: '0 0 calc(100%/3)' }}>
-                  <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                    Band Name Vortex
-                  </h2>
-                  <p>
-                    Another quest of the staff of Planet Records is the search
-                    for the greatest band name. Our research and development
-                    department works tirelessly every day producing the cream of
-                    the crop. Click the button to find your favorite band name.
-                  </p>
-                </div>
-                <BandName bandName={bandName} />
-                <div style={{ flex: '0 0 calc(100%/3)' }}>
-                  <div>
-                    <button
-                      className="summon-band-name"
-                      onClick={fetchBandName}
-                    >
-                      Summon Forth A Band Name
-                    </button>
+          <div
+            className="section"
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+            }}
+          >
+            <div
+              style={{
+                flex: '0 0 calc(100%/3)',
+              }}
+            >
+              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
+                {title}
+              </h2>
+              <p>{description}</p>
+            </div>
+            <BandName bandName={bandName} />
+            <div
+              style={{
+                flex: '0 0 calc(100%/3)',
+              }}
+            >
+              <div>
+                <button className="summon-band-name" onClick={setBandName}>
+                  {buttonLabel}
+                </button>
 
-                    <div>
-                      <input
-                        id="includeNSFW"
-                        type="checkbox"
-                        onChange={() => setIncludeNSFW(!includeNSFW)}
-                        value={includeNSFW}
-                      />
-                      <label htmlFor="includeNSFW">ALLOW PRURIENT FILTH</label>
-                    </div>
-                  </div>
+                <div>
+                  <input
+                    id="includeNSFW"
+                    type="checkbox"
+                    onChange={() => setIncludeNSFW(!includeNSFW)}
+                    value={includeNSFW}
+                  />
+                  <label htmlFor="includeNSFW">{checkboxLabel}</label>
                 </div>
               </div>
             </div>
@@ -74,7 +96,6 @@ export const BandNameVortexTemplate = () => {
 
 BandNameVortexTemplate.propTypes = {
   title: PropTypes.string,
-  sections: PropTypes.array,
 };
 
 const BandNameVortex = ({ data }) => {
@@ -84,7 +105,15 @@ const BandNameVortex = ({ data }) => {
     <Layout isTransparent>
       <BandNameVortexTemplate
         title={frontmatter.title}
-        sections={frontmatter.sections}
+        description={frontmatter.description}
+        buttonLabel={frontmatter.buttonLabel}
+        checkboxLabel={frontmatter.checkboxLabel}
+        generalBandNames={frontmatter.generalBandNames
+          .split('\n')
+          .map(name => ({ value: name, isNsfw: false }))}
+        nsfwBandNames={frontmatter.nsfwBandNames
+          .split('\n')
+          .map(name => ({ value: name, isNsfw: true }))}
       />
     </Layout>
   );
@@ -105,6 +134,11 @@ export const HistoryPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        description
+        buttonLabel
+        checkboxLabel
+        generalBandNames
+        nsfwBandNames
       }
     }
   }

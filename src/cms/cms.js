@@ -8,6 +8,8 @@ import HistoryPagePreview from './preview-templates/HistoryPagePreview';
 
 import MarkdownPagePreview from './preview-templates/MarkdownPagePreview';
 
+window.___loader = { enqueue: () => {}, hovering: () => {} };
+
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
 

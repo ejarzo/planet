@@ -13,6 +13,8 @@ const IndexPagePreview = ({ entry, widgetFor, getAsset }) => {
         heading={data.heading}
         subheading={data.subheading}
         description={data.description}
+        shoppingOnlineSection={data.shoppingOnlineSection}
+        lowerSection={data.lowerSection}
         intro={data.intro || { blurbs: [] }}
       />
     );
@@ -23,9 +25,9 @@ const IndexPagePreview = ({ entry, widgetFor, getAsset }) => {
 
 IndexPagePreview.propTypes = {
   entry: PropTypes.shape({
-    getIn: PropTypes.func
+    getIn: PropTypes.func,
   }),
-  getAsset: PropTypes.func
+  getAsset: PropTypes.func,
 };
 
 export default IndexPagePreview;

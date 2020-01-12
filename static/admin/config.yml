@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: develop
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -10,6 +10,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+logo_url: '../img/planet-logo-blue.png'
 
 collections:
   - name: "pages"
@@ -25,8 +26,12 @@ collections:
           - {label: Subheading, name: subheading, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Description, name: description, widget: markdown}
+          - {label: "Shopping Online", name: shoppingOnlineSection, widget: object, fields: [
+              {label: Description, name: description, widget: markdown},
+              {label: "Shopping Links", name: links, widget: list, fields: [{label: Title, name: title, widget: string}, {label: URL, name: url, widget: string}, {label: Image, name: image, widget: image}]},
+            ]}
+          - {label: Lower Section, name: lowerSection, widget: markdown}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          # - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
@@ -72,3 +77,14 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: Description, name: description, widget: markdown}
           - {label: Products, name: products, widget: list, fields: [{label: Description, name: description, widget: string}, {label: Image, name: image, widget: image}]}
+      - file: "src/pages/band-name-vortex/index.md"
+        label: "Band Name Vortex"
+        name: "band-name-vortex"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "band-name-vortex-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: Description, name: description, widget: string}
+          - {label: "Button Label", name: buttonLabel, widget: string}
+          - {label: "Checkbox Label", name: checkboxLabel, widget: string}
+          - {label: "General Band Names", name: generalBandNames, widget: text}
+          - {label: "NSFW Band Names", name: nsfwBandNames, widget: text}
