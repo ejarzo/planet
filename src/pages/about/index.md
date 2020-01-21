@@ -5,7 +5,7 @@ image: /img/behind-the-scenes.jpg
 ---
 ### History
 
-Planet’s been around since 1983. [Read about the Kenmore store and more](/about/history).
+Planet’s been around since 1983. [Read about the history of the Kenmore store and more](/about/history).
 
 ### What We Do
 
