@@ -32,9 +32,6 @@ shoppingOnlineSection:
     - title: Amazon
       image: /img/amazon_logo.svg
       url: 'https://www.amazon.com/s?me=A3AFXHL86TBAH4&marketplaceID=ATVPDKIKX0DER'
-    - title: Reverb LP
-      image: /img/reverb-lp-logo-vector.svg
-      url: 'https://lp.reverb.com/shops/planet-records/listings'
     - title: Discogs
       image: /img/discogs-logo.svg
       url: 'https://www.discogs.com/seller/PlanetRecords/profile'
