@@ -1,8 +1,6 @@
 ---
 templateKey: tshirts-page
 title: Planet Records Merch
-image1: /img/shirt-rooster.jpg
-image2: /img/uov-ad.png
 description: >-
   There are four Planet T-shirts to choose from. To declare your proud
   ‘University of Vinyl’ alumnus status, we’ve got more than just the shirt. For
@@ -16,7 +14,10 @@ description: >-
 
   * **T-Shirts**: $15 ($17 for XXL)
 
-  * **'University of Vinyl' Diploma, Decal, and Bumper Sticker**: $5 Each
+  * **'University of Vinyl' Diploma:**  $15**,** 
+
+  * **Decal, and Bumper Sticker**: $5 Each
+
 
 
   You can order by phone (617 492 0693) or email us if you’d like us to issue a
@@ -28,14 +29,12 @@ products:
     image: /img/uov-ad.png
   - description: >-
       While the University of Vinyl is a non-accredited metaphor, the diploma
-      ($5) currently represents a much better return on your investment than one
-      acquired through formal schooling.
+      ($15) currently represents a much better return on your investment than
+      one acquired through formal schooling.
     image: /img/uov-diploma.jpg
   - description: The newest addition is the University of Vinyl shirt.
     image: /img/shirt-uov.jpg
-  - description: The dog shirt comes in green...
-    image: /img/shirt-dog-green.jpg
-  - description: '...and blue, though color availability somtimes varies with size.'
+  - description: The dog shirt comes in blue.
     image: /img/shirt-dog-blue.jpg
 ---
 
