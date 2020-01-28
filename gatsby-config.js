@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Planet Records',
-    description: 'Planet Records website',
+    description: 'Planet Records, Massachusetts brick-and-mortar and online music store.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
