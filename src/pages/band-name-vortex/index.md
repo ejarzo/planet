@@ -9,6 +9,7 @@ description: >-
 buttonLabel: Summon Forth A Band Name
 checkboxLabel: ALLOW PRURIENT FILTH
 generalBandNames: |-
+  Neil Young Cannibals
   !!!enfoot
   ...And You Will Know Me By the Pail On My Head
   ABBA Cadaver
@@ -23,6 +24,7 @@ generalBandNames: |-
   Amon Drööl II
   And Garfunkel
   Andrea Bocephus
+  Andy Partridge Family
   Angelina Jovi
   Ani DiFranco Goes to Hollywood
   Anne Frank Zappa
@@ -42,6 +44,7 @@ generalBandNames: |-
   Band of Gipsy Kings
   Barley Mob
   Barry Whitesnake
+  Barry Wrong
   Bastard of Muppets
   Bau Wow Wow Haus
   Beach Boyz II Men At Work
@@ -54,6 +57,7 @@ generalBandNames: |-
   Berlioz and Does Eat Oats
   Bertolt Breakfast
   Bevis & Butthead Frond
+  Big Daddy Kanye
   Bill Evanescence
   Billy Graham Central Station
   Billy Hole
@@ -61,7 +65,9 @@ generalBandNames: |-
   Billy Ray Cypress Hill
   Bionic Knowles
   Bjërk
+  Black Shelton
   Black Sheryl Crowes
+  Blake Sabbath
   Blipsnot
   Bloody Guy
   Bloody Holly
@@ -73,11 +79,13 @@ generalBandNames: |-
   Bologna Apple
   Bon Iver Jovi
   Boney M. Ward
+  Bong Crosby
   Bonnie Second Raitt
   Bono Jovi
   Booger T & the MG’s
   Bore-issey
   Bored in Canada
+  Boris Day
   Boss Hug
   Brain Seltzer Orchestra
   Brian Ego
@@ -97,6 +105,7 @@ generalBandNames: |-
   Cabbage Garden
   Camper Van Halen
   Cannibal Adderly
+  Can't
   Captain Beef Fart
   Carole King Crimson
   Carrie Understudy
@@ -121,6 +130,7 @@ generalBandNames: |-
   Clapton Beefheart
   Clodplay
   Cobain Capital
+  Coldplay Segundo
   Coldplaytex
   Coleman Hawkwind
   Coreigner
@@ -136,6 +146,7 @@ generalBandNames: |-
   Daevid Allen Coe
   Damon and Klaus Nomi
   Danziggy Marley
+  Darlene Love and Rockets
   Darth Brooks
   Dave Manson
   David Lee Damroth
@@ -152,13 +163,16 @@ generalBandNames: |-
   Depeche Commode
   Depeche Moe Dee
   Depressed Mode
+  Deuce Springsteen
   Devendra Manfart
   Diana Krill
   Diarrhea Straits
   Dinah Shore Jr.
   Dinosaur Sr.
+  Dio and the Belmonts
   Dirty Danzig
   Disposable Diapers of Hippocrates
+  Djork
   Dolly Fartin’
   Don Henley Cow
   Donovan Frankenberry
@@ -169,7 +183,7 @@ generalBandNames: |-
   Duane Eddie from Ohio
   Duane Edy Gorme
   Durante Column
-  Dvörk
+  Dyörk
   D’Angelo Biafra
   E = MC HAMMER
   Eartha Kitt & Fire
@@ -185,6 +199,7 @@ generalBandNames: |-
   Elvis Parsley
   Emerson Lake Embalmer
   Emmylou Hairpiece
+  Emoji Heap
   Ennio Morricone and Cheese
   Entendre the Giant
   Epcot Fitzgerald
@@ -202,10 +217,13 @@ generalBandNames: |-
   Farts Domino
   Fat Albert Ayler
   Fat Boy Slime
+  Fatty Smith
   Faust and Furious
   Fela Kooties
   Fiona Crapple
   Fiszt
+  Fleet Fuxa
+  Fleetwood Mackey
   Fleetwood Smack
   Florence Foster Karl Jenkins
   Flying 7-Layer Burrito Brothers (Extra Guac)
@@ -216,6 +234,7 @@ generalBandNames: |-
   Fountains of Wayne’s World
     "Frampton's Cameltoe"
   Frank Black Uhuru
+  Frankie Goes To Hall & Oates
   Frank Snotra
   Franz Q-Bert
   Franz Sherbert
@@ -227,6 +246,7 @@ generalBandNames: |-
   G.G. Allin Parsons Project
   G.G. Allman
   G.G. Alvin and the Chipmunks
+  Garth Vader
   Gas-XTC
   Genesis O. Atmeal
   Gerald Lever 2000
@@ -240,6 +260,7 @@ generalBandNames: |-
   Grandma Funk Railroad
   Grandmaster Flush
   Guided By Oysters
+  Gustavo Tuna Melt
   Hair Supply
   Harmonica Lewinsky
   Harold Budgie
@@ -254,6 +275,8 @@ generalBandNames: |-
   Howard Taint
   Huey Lee Lewis
   Huu-Skuur-Dü
+  Hug Masakela
+  Ian Dury Column
   iCarly Simon
   Id Krock
   Iggy Pop Will Eat Himself
@@ -276,6 +299,7 @@ generalBandNames: |-
   Jan Hammertoe
   Jane Birkinstocks
   Jane Mirken
+  Jar Jar Blink 182
   Jaundice Joplin
   Jehovah’s Witness Rejection Program
   Jello B. Opera
@@ -286,6 +310,7 @@ generalBandNames: |-
   Jill Scott Heron
   Jimmy Stiff
   Joan Bias
+  Joanna Newsum 41
   Joe Eloy
   Joe Meek-a-Mouse
   John Abercrombie & Fitch
@@ -300,6 +325,7 @@ generalBandNames: |-
   Jud Jud Garland
   Juliana Hatebreed
   Kajagoogoo Dolls
+  Kanye Donelly
   Karaoke Erickson
   Karen Carpet Tack
   Karl Jenkem
@@ -313,6 +339,7 @@ generalBandNames: |-
   Kreayfish
   Kris Pissedofferson
   Kruddy and Dorkmeister
+  Krusty Springfield
   Krusty Gail
   L.A.I. Bach
   Lady & The Cramps
@@ -321,6 +348,7 @@ generalBandNames: |-
   Lambert Hendricks & Gross
   Lamonte Dung
   Land of Talk Talk Talking Heads
+  Lani Earle
   Last Exit Wound
   Later Skinny
   Lee Ranaldo & The Loaf
@@ -334,11 +362,15 @@ generalBandNames: |-
   Lindsey Buckethead
   Lint Bizkit
   Lisa Lobotomy
+  Little Bruno Walter
+  L.L. Fitzgerald
   LL Kool J & the the Gang
   Llama del Ray
+  Logan and Messina
   Loretta Lynyrd
   Los Hobos
   Los Lisa Lobos
+  Lou Creed
   Lou Greed
   Louvin Rockets
   Lucifudge
@@ -349,7 +381,7 @@ generalBandNames: |-
   M. T. Hamper
   Macramé and Ryan Lewis
   Madeleine Paypal
-  Madonnavan
+  Madonovan
   Madonny Osmond
   Magnapoop
   Malodorous Monk
@@ -380,6 +412,7 @@ generalBandNames: |-
   Merle Hagar
   Merle Haggis
   Methadone Man
+  Meth Orton
   Michael Bublébath
   Michael Bubléwrap
   Mick Jaegermeister
@@ -392,19 +425,23 @@ generalBandNames: |-
   Mojo Nicks
   Morcheebacca
   Moron 5
+  Moron Subotnik
   Moronica
   Morosey
   Morrison Morrissey Morissette and Young
+  Mos Def Mouse
   Mosh Pit and the Pendulum
   Mudcrotch
   Mullet Plug
   Mumford & Sunn O)))
   My Chemical Bromance
+  Nas Luhrman
   Nat King Coldplay
   Nat King Crimson
   Nat “Evelyn ‘Champagne’ King” Cole
   Natalie Merchandise
   Natalie Portishead
+  Necco Case
   Necro Case
   Neil Jung
   Nelly Fritata
@@ -413,6 +450,7 @@ generalBandNames: |-
   Neuvana
   New Odor
   New Restraining Order
+  Nick Jaundice
   Nick Rhodesaw
   Nina Häagan Dazs
   Nina Someone
@@ -428,6 +466,7 @@ generalBandNames: |-
   Old Spice Girls
   Omelet Coleman
   Operation IV
+  Opera Winfrey
   Orchestral Manure In the Dark
   Oreo Speedwagon
   Oreolab
@@ -436,6 +475,7 @@ generalBandNames: |-
   Osmondtantes
   Otis Spam
   Otis Spreading
+  Ovary Joe Hunter
   Ozomatli Crüe
   Ozzy Osmond
   P.J. Harvey Oswald
@@ -464,6 +504,7 @@ generalBandNames: |-
   Philip Glasshole
   Pinchers of Loaf
   Placebo Domingo
+  Pink Flood
   Polka Face
   Poo Fighters
   Poof Daddy
@@ -482,6 +523,7 @@ generalBandNames: |-
   Rage Against the Latrine
   Rahsaan Captain Kirk
   Rahsaan Roland Kirk Cameron
+  Random Travis
   Randy Travesty
   Recapitated
   REM Speedwagon
@@ -507,6 +549,7 @@ generalBandNames: |-
   Régine Crespin Glover
   Salmon Dave
   Salt ’n Pepa’s Lonely Hearts Club Band
+  Sam Coke
   Sam Cookie Monster
   Santanarama
   Sarah Lee Vaughan
@@ -518,11 +561,13 @@ generalBandNames: |-
   Scott Walker Texas Ranger
   Scrawl & Goates
   Screamin’ Johns Hopkins
+  Screamin' Sadie Hawkins
   Screamin’ Stephen Hawkins
   Scritti Politti Dirt Band
   Sea Mass
   Sean Puffy Ami-Yumi
   Sewer Jelly
+  Shakira O'neil
   Sha Na Na Twain
   Shanté MacGowan
   Sharon ISBN
@@ -537,6 +582,7 @@ generalBandNames: |-
   Skinny Poopy
   Skoobas
   Slim Sade
+  Sloan Dion
   Sloppy LaBeef
   Slush Farts
   Sly and the Family Stallone
@@ -550,6 +596,7 @@ generalBandNames: |-
   Snort Master
   Snot Dogs
   Sodom & Cremora
+  Sonny and Sharrock
   Son Volta
   Sophie B. Hawkwind
   Sophie Mutters
@@ -560,6 +607,7 @@ generalBandNames: |-
   Spring Heeled Jackass
   Spyro Gynecologists
   Starfart
+  Steamed Dumplings
   Steeleye Dan
   Steeleye Spam
   Steely Pulse
@@ -589,6 +637,7 @@ generalBandNames: |-
   Techno & the Bunnymen
   Teenage Mutant Ninja Turtle Island Quartet
   Temple of Dog the Bounty Hunter
+  Thai Seagulls
   The Active Cultures
   The Backside Noise
   The Backwoods Boys
@@ -618,6 +667,7 @@ generalBandNames: |-
   The Notorious Jar-Jar B.I.G.G.S.
   The Nusrat Fateh Ali Khan & BBQ Show
   The odB’s
+  Theolonious Munch
   The Peter Green Day la Soul II Soul Survivors
   The Pornophonic Spree
   The Prosciutto Happiness
@@ -631,6 +681,7 @@ generalBandNames: |-
   The Whamned
   The Whodini
   They Might Be Bosstones
+  Thirsty Moore
   This Mormon Coil
   This Mortal Coil Is a Pipe Bomb
   This Steaming Mortal Coil
@@ -641,6 +692,7 @@ generalBandNames: |-
   Tom Putty
   Tom Waits for No Man
   Tony Danzig
+  Trampled By Bandnames
   Transistor Sister
   Traveling Bill Murrays
   Traveling Pillsburys
@@ -750,6 +802,7 @@ nsfwBandNames: |
   Saxophone Colostomy
   Scat Power
   Shit Biscuit
+  Shit Baker
   Shitney Spears
   Spyro Gyna
   Stereolabia
@@ -772,3 +825,4 @@ nsfwBandNames: |
   Weener
   Wishbone Ass
 ---
+
