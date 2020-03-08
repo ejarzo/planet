@@ -16,11 +16,15 @@ generalBandNames: |-
   Abba Ranks
   Aerosol Mineo
   Ain’t I DiFranco?
+  Alabama Shakira
   Al Di Meola’s Hairpiece
   Al Gangrene
+  Alanis Del Ray
   Alanis Motörhead
+  Alien Sex Friend
   Alison Krauss In Chains
   Alison Sourkrauss
+  Allah Fitzgerald
   Amon Drööl II
   And Garfunkel
   Andrea Bocephus
@@ -34,6 +38,7 @@ generalBandNames: |-
   Arthur Foote Fetish
   Artie P’Shaw
   Arvo Pärtheid
+  Astral Weaksauce
   Audiosaliva
   Avant Gardners
   Avril Latrine
@@ -62,6 +67,7 @@ generalBandNames: |-
   Billy Graham Central Station
   Billy Hole
   Billy Jewel
+  Billy Joel Mcallister
   Billy Ray Cypress Hill
   Bionic Knowles
   Bjërk
@@ -82,6 +88,7 @@ generalBandNames: |-
   Bong Crosby
   Bonnie Second Raitt
   Bono Jovi
+  Boob Dylyn
   Booger T & the MG’s
   Bore-issey
   Bored in Canada
@@ -90,6 +97,7 @@ generalBandNames: |-
   Brain Seltzer Orchestra
   Brian Ego
   Brian Flip Wilson
+  Brian Ono
   Brigitte Bar-None
   Brony Bennett
   Brooks & Dung
@@ -188,6 +196,7 @@ generalBandNames: |-
   E = MC HAMMER
   Eartha Kitt & Fire
   Echo and the B.M.
+  Eddie Condom
   Ed Zeppelin
   Edgar Allen Coe
   Edith Peon
@@ -220,11 +229,13 @@ generalBandNames: |-
   Fatty Smith
   Faust and Furious
   Fela Kooties
+  Fela Soul
   Fiona Crapple
   Fiszt
   Fleet Fuxa
   Fleetwood Mackey
   Fleetwood Smack
+  Flobutt
   Florence Foster Karl Jenkins
   Flying 7-Layer Burrito Brothers (Extra Guac)
   Flying Barrista Brothers
@@ -251,12 +262,14 @@ generalBandNames: |-
   Genesis O. Atmeal
   Gerald Lever 2000
   Gershwind and Fire
+  Giggly Welch
   Gipsy Kinks
   Girth Brooks
   Glam Chowder
   Goldfripp
   Gory Estefan
   Grace Cajones
+  Gram Possum
   Grandma Funk Railroad
   Grandmaster Flush
   Guided By Oysters
@@ -270,6 +283,7 @@ generalBandNames: |-
   Herb Alert
   Herman’s Head Hermits
   Hillary Duff Beer
+  Hippie Nipples
   Holly Archers of Loaf
   Hootie & the Kurtis Blowfish
   Howard Taint
@@ -300,6 +314,7 @@ generalBandNames: |-
   Jane Birkinstocks
   Jane Mirken
   Jar Jar Blink 182
+  Jason Mrazberries
   Jaundice Joplin
   Jehovah’s Witness Rejection Program
   Jello B. Opera
@@ -308,6 +323,7 @@ generalBandNames: |-
   Jesus Philbin
   Jewel & the Gang
   Jill Scott Heron
+  Jimmy Cliff Bar
   Jimmy Stiff
   Joan Bias
   Joanna Newsum 41
@@ -331,9 +347,11 @@ generalBandNames: |-
   Karl Jenkem
   Katy ‘Scratch’ Perry
   Keith Sweatpants
+  Kenny Pharrell
   Kenny G Unit
   King Sunny Adé Real Estate
   Klezbian
+  Korny
   Kraft-twerk
   Krakow Barrel
   Kreayfish
@@ -357,6 +375,7 @@ generalBandNames: |-
   Leon Redbone Ash
   Lesley Gordita
   Less Cheeba
+  Letters to Lalo
   Ligeti Split
   Limp Triscuit
   Lindsey Buckethead
@@ -401,6 +420,7 @@ generalBandNames: |-
   Mary Lou Reed
   Mashing Dumplin’s
   Massive Attaché
+  Mastadonny Osmond
   Maude Squad
   McDonna
   Meat Head Manifesto
@@ -481,6 +501,7 @@ generalBandNames: |-
   P.J. Harvey Oswald
   Paco Bell
   Panty Division
+  Papal Vuh
   Pasty Cline
   Pat Benetard
   Pat Methane
@@ -498,6 +519,7 @@ generalBandNames: |-
   Perfect Stranglers
   Pet Sheep Boys
   Pete Seeger Missile
+  Peter Butter Wolf
   Peter Wolfenstein
   Petulant Clark
   Pharoah’s Sandals
@@ -569,6 +591,7 @@ generalBandNames: |-
   Sewer Jelly
   Shakira O'neil
   Sha Na Na Twain
+  Shania Dwayne
   Shanté MacGowan
   Sharon ISBN
   Shawn Colon
@@ -595,6 +618,7 @@ generalBandNames: |-
   Snoozy & the Banshees
   Snort Master
   Snot Dogs
+  Soda Bear
   Sodom & Cremora
   Sonny and Sharrock
   Son Volta
@@ -627,6 +651,7 @@ generalBandNames: |-
   String
   Stuck With Patty
   Stun Ra
+  Styme Council
   Stynx
   Supercramp
   Susanna Hoffsyrup
@@ -634,6 +659,7 @@ generalBandNames: |-
   Sweat Shop Boys
   Sweaty Pudding
   Syndrome of a Downs
+  Talking Heads of Lettuce
   Techno & the Bunnymen
   Teenage Mutant Ninja Turtle Island Quartet
   Temple of Dog the Bounty Hunter
@@ -711,6 +737,7 @@ generalBandNames: |-
   Velveeta Underground
   Velvet Undergrad
   Violent J Mascis
+  Violin Femmes
   Wall of Doo Doo
   Wall to Walrus
   Wed Weppewin
@@ -724,6 +751,7 @@ generalBandNames: |-
   Wimp Bizkit
   Wishbone Ash Ra Temple
   Wolfgang Amadeus Mustfart
+  Wooly Nelson
   WTF Bach
   Wu-Tangerine Dream
   Wueen
@@ -758,6 +786,7 @@ nsfwBandNames: |
   Bat Penatar
   Circle Jerky Boys
   Clit Blister
+  Coitus Mayfield
   Conway Titty
   Crosby Stills & Nashville Pussy
   Deep Shit Purple
