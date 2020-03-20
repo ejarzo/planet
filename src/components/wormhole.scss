@@ -13,7 +13,7 @@
     width: 188.877229801vh; /* 100 * 1800 / 953 */
     min-width: 100%;
     min-height: 52.944444444vw; /* 100 * 953 / 1800 */
-
+    max-width: unset;
     position: absolute;
     left: 50%; /* % of surrounding element */
     top: 50%;
