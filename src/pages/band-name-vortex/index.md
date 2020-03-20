@@ -29,11 +29,13 @@ generalBandNames: |-
   And Garfunkel
   Andrea Bocephus
   Andy Partridge Family
+  Anne Sophie Nutter Butter
   Angelina Jovi
   Ani DiFranco Goes to Hollywood
   Anne Frank Zappa
   Anonymous Curry
   Anson Funderwear
+  Archers Of Meatloaf
   Art Poppers
   Arthur Foote Fetish
   Artie P’Shaw
@@ -46,14 +48,18 @@ generalBandNames: |-
   Baba Ganugent
   Babar Streisand
   Babatunde Yolatengo
+  Bad Pus
+  Balogne Apple
   Band of Gipsy Kings
   Barley Mob
   Barry Whitesnake
   Barry Wrong
+  Bartoking Heads
   Bastard of Muppets
   Bau Wow Wow Haus
   Beach Boyz II Men At Work
   Beef Ellington
+  Bee Gee Allin
   Beers for Fears
   Bela Kuti
   Belle and Johann Sebastian Bach
@@ -64,10 +70,12 @@ generalBandNames: |-
   Bevis & Butthead Frond
   Big Daddy Kanye
   Bill Evanescence
+  Billy Brass
   Billy Graham Central Station
   Billy Hole
   Billy Jewel
   Billy Joel Mcallister
+  Billy Joe Royal Trux
   Billy Ray Cypress Hill
   Bionic Knowles
   Bjërk
@@ -80,6 +88,7 @@ generalBandNames: |-
   Blossom Dreary
   Blue Cher
   Blue Man Goop
+  Blue Oyster Culture Club
   Bob Gnarly
   Bob Sigur Rós
   Bologna Apple
@@ -88,7 +97,8 @@ generalBandNames: |-
   Bong Crosby
   Bonnie Second Raitt
   Bono Jovi
-  Boob Dylyn
+  Boob Dylan
+  Boob Seger
   Booger T & the MG’s
   Bore-issey
   Bored in Canada
@@ -144,6 +154,7 @@ generalBandNames: |-
   Coreigner
   Count Basia
   Count Chocula and His Orchestra
+  Country Joe and the Phish
   Cousteau Twins
   Crap Array Voltaire
   Crap Your Pants Say Yeah!
@@ -152,11 +163,14 @@ generalBandNames: |-
   Cyndi Plopper
   Da Bart
   Daevid Allen Coe
+  Dalek & the Dominos
   Damon and Klaus Nomi
   Danziggy Marley
   Darlene Love and Rockets
   Darth Brooks
+  Dave & Phil Alvin & the Chipmunks
   Dave Manson
+  Dave Van Wrong
   David Lee Damroth
   David Merzbowie
   Dawn Up-Yours
@@ -170,6 +184,7 @@ generalBandNames: |-
   Delores Rear End
   Depeche Commode
   Depeche Moe Dee
+  Depeche Mud
   Depressed Mode
   Deuce Springsteen
   Devendra Manfart
@@ -184,6 +199,7 @@ generalBandNames: |-
   Dolly Fartin’
   Don Henley Cow
   Donovan Frankenberry
+  Don't Be Brothers
   Doody Garland
   Doofus Wainwright
   Doris Day and the Time
@@ -203,6 +219,7 @@ generalBandNames: |-
   Edith Rice Pilaf
   Elephant’s Gerald
   Ella Jenkem
+  Ella Kuti
   Elmo Bernstein
   Eloy ‘Paperboy’ Reed
   Elvis Parsley
@@ -214,6 +231,8 @@ generalBandNames: |-
   Epcot Fitzgerald
   Eric Crapton
   Error Smith
+  Erykah Ba Don't
+  Erykah Ba Doobie Brothers
   Erykah Bidet
   Eva Cassidy & the Sundance Kid
   Excuse Me & the Banshees
@@ -226,6 +245,7 @@ generalBandNames: |-
   Farts Domino
   Fat Albert Ayler
   Fat Boy Slime
+  Fats Weller
   Fatty Smith
   Faust and Furious
   Fela Kooties
@@ -246,6 +266,7 @@ generalBandNames: |-
     "Frampton's Cameltoe"
   Frank Black Uhuru
   Frankie Goes To Hall & Oates
+  Frank Sianara
   Frank Snotra
   Franz Q-Bert
   Franz Sherbert
@@ -274,8 +295,11 @@ generalBandNames: |-
   Grandmaster Flush
   Guided By Oysters
   Gustavo Tuna Melt
+  Gyoto Monkees
   Hair Supply
   Harmonica Lewinsky
+  Harold Blood
+  Harold Budd Ulmer
   Harold Budgie
   Hateful Dead
   Hawkwind and Fire
@@ -294,6 +318,8 @@ generalBandNames: |-
   iCarly Simon
   Id Krock
   Iggy Pop Will Eat Himself
+  Indica Girls
+  Instagram Parker
   Interpol Pot
   Inti-Illuminati
   Invasion of the Chris Botti Snatchers
@@ -366,12 +392,14 @@ generalBandNames: |-
   Lambert Hendricks & Gross
   Lamonte Dung
   Land of Talk Talk Talking Heads
+  Lani Del Ray
   Lani Earle
   Last Exit Wound
   Later Skinny
   Lee Ranaldo & The Loaf
   Lee ‘Refrigerator’ Perry
   Lenny Kraftwerk
+  Leo Latke
   Leon Redbone Ash
   Lesley Gordita
   Less Cheeba
@@ -417,6 +445,7 @@ generalBandNames: |-
   Marky Moon
   Marquis de Sade (pronounced /ʃɑːˈdeɪ/)
   Mary Chafin Carpenter Ants
+  Mary Lou Lords Of The New Church
   Mary Lou Reed
   Mashing Dumplin’s
   Massive Attaché
@@ -424,6 +453,7 @@ generalBandNames: |-
   Maude Squad
   McDonna
   Meat Head Manifesto
+  Meco Case
   Megabreth
   Mel Tormént
   Men At Twerk
@@ -455,6 +485,8 @@ generalBandNames: |-
   Mullet Plug
   Mumford & Sunn O)))
   My Chemical Bromance
+  Napkin Cole
+  Nap King Cole
   Nas Luhrman
   Nat King Coldplay
   Nat King Crimson
@@ -462,6 +494,8 @@ generalBandNames: |-
   Natalie Merchandise
   Natalie Portishead
   Necco Case
+  Neko Basket Case
+  Nekocasek
   Necro Case
   Neil Jung
   Nelly Fritata
@@ -472,15 +506,19 @@ generalBandNames: |-
   New Restraining Order
   Nick Jaundice
   Nick Rhodesaw
+  Nico Case
   Nina Häagan Dazs
   Nina Someone
   Ninja Hagen
   Ninja Simone
   Nirvanarama
+  Norad Jones
   Notorious BIG Bird
   NRBBQ
+  Nurds With Wounds
   Nurse With Broom
   Nusrat Fateh Elton John
+  NWA Hagen
   Obscene Dion
   Oi Division
   Old Spice Girls
@@ -523,6 +561,7 @@ generalBandNames: |-
   Peter Wolfenstein
   Petulant Clark
   Pharoah’s Sandals
+  Pharrell Sanders
   Philip Glasshole
   Pinchers of Loaf
   Placebo Domingo
@@ -538,6 +577,7 @@ generalBandNames: |-
   Puke Smellington
   Pus Bubble
   Pus Pus
+  Queen Yusef Lateefa
   R.E. Eminem
   R.E.M.F.D.M.
   Rabbi Shankar
@@ -548,10 +588,13 @@ generalBandNames: |-
   Random Travis
   Randy Travesty
   Recapitated
+  Régine Crespin Glover
   REM Speedwagon
   Ren & Stompy Jones
+  Renee Flaming Lips
   Rice-a-roni Size
   Richard Heck
+  Rick Ghastly
   Ricky Nilsson
   Ricky Ricardust
   Ricky Shaggs
@@ -568,7 +611,8 @@ generalBandNames: |-
   Rory Rumpler
   Rosanne Clash
   Rosemary Looney
-  Régine Crespin Glover
+  Roy Orb
+  Ryuichi Sakamotorhead
   Salmon Dave
   Salt ’n Pepa’s Lonely Hearts Club Band
   Sam Coke
@@ -587,6 +631,7 @@ generalBandNames: |-
   Screamin’ Stephen Hawkins
   Scritti Politti Dirt Band
   Sea Mass
+  Sean Paul Jones
   Sean Puffy Ami-Yumi
   Sewer Jelly
   Shakira O'neil
@@ -594,8 +639,10 @@ generalBandNames: |-
   Shania Dwayne
   Shanté MacGowan
   Sharon ISBN
+  Sharon Van Etsy
   Shawn Colon
   Shawn Mullet
+  Sheep Trick
   Simon & Garfield
   Siouxsie and the Headcheese
   Siouxsie Quattro
@@ -603,6 +650,7 @@ generalBandNames: |-
   Sisters of Merseybeat
   Skank Williams
   Skinny Poopy
+  Skirt Cobain
   Skoobas
   Slim Sade
   Sloan Dion
@@ -628,6 +676,7 @@ generalBandNames: |-
   Soupy & The Cream Cheese
   Space Ghost Killah
   Spencer Rabies
+  Spooky Tuba
   Spring Heeled Jackass
   Spyro Gynecologists
   Starfart
@@ -639,6 +688,7 @@ generalBandNames: |-
   Stereocrabs
   Stereoflab
   Stevie Nickelback
+  Stevie Ray Vaughan Meader
   Stevie Ray Vomit
   Stevie Wonderpants
   Stiff Little Richard
@@ -653,14 +703,18 @@ generalBandNames: |-
   Stun Ra
   Styme Council
   Stynx
+  Sufjah Stevens
   Supercramp
   Susanna Hoffsyrup
   Sushi and the Banshees
+  Swat Ra
   Sweat Shop Boys
   Sweaty Pudding
   Syndrome of a Downs
+  Tahini Kill
   Talking Heads of Lettuce
   Techno & the Bunnymen
+  Ted Nuisance
   Teenage Mutant Ninja Turtle Island Quartet
   Temple of Dog the Bounty Hunter
   Thai Seagulls
@@ -710,10 +764,12 @@ generalBandNames: |-
   Thirsty Moore
   This Mormon Coil
   This Mortal Coil Is a Pipe Bomb
+  This Mortal Foil
   This Steaming Mortal Coil
   Thong Yorke
   Three Hole Punch
   Throwing Up Muses
+  Tin Tin Machine
   Tiny Timberlake
   Tom Putty
   Tom Waits for No Man
@@ -724,6 +780,7 @@ generalBandNames: |-
   Traveling Pillsburys
   Tubach Shakur
   Turd World
+  TWA Turner
   Upchuck D.
   Urethra Franklin
   Urethra Heep
@@ -731,17 +788,22 @@ generalBandNames: |-
   Urinal Cake
   Utah Lemper
   Van der Daaft Punk Generator
+  Van Dyke Pork
   Van Hurlin’
   Vanilla Lice
+  Van Jello
   Vedder Than Ezra
   Velveeta Underground
   Velvet Undergrad
+  Velvet Underground and Neko Case
+  Victor Futon
   Violent J Mascis
   Violin Femmes
   Wall of Doo Doo
   Wall to Walrus
   Wed Weppewin
   Weird Owl
+  Wes Montgummy Bears
   Wet Willie Nelson
   Whitesnake Stripes
   Whole Lotte Lenya
@@ -753,9 +815,11 @@ generalBandNames: |-
   Wolfgang Amadeus Mustfart
   Wooly Nelson
   WTF Bach
+  Wu-Tang Clan Of Xymox
   Wu-Tangerine Dream
   Wueen
   Wyatt Riot
+  Wynton Merciless
   Yakstreet Boys
   Yanni DiFranco
   Yawny
@@ -786,6 +850,7 @@ nsfwBandNames: |
   Bat Penatar
   Circle Jerky Boys
   Clit Blister
+  Cock Punch Brothers
   Coitus Mayfield
   Conway Titty
   Crosby Stills & Nashville Pussy
@@ -833,6 +898,7 @@ nsfwBandNames: |
   Shit Biscuit
   Shit Baker
   Shitney Spears
+  Sonny's tit
   Spyro Gyna
   Stereolabia
   Sugar Pubes
