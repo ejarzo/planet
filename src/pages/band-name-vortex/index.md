@@ -9,7 +9,7 @@ description: >-
 buttonLabel: Summon Forth A Band Name
 checkboxLabel: ALLOW PRURIENT FILTH
 generalBandNames: |-
-  Neil Young Cannibals
+
   !!!enfoot
   ...And You Will Know Me By the Pail On My Head
   ABBA Cadaver
@@ -26,6 +26,7 @@ generalBandNames: |-
   Alison Sourkrauss
   Allah Fitzgerald
   Amon Drööl II
+  Amy Winehouse Of Pain
   And Garfunkel
   Andrea Bocephus
   Andy Partridge Family
@@ -43,6 +44,7 @@ generalBandNames: |-
   Astral Weaksauce
   Audiosaliva
   Avant Gardners
+  Avenged Sevenfolds Five
   Avril Latrine
   Axis of Orville
   Baba Ganugent
@@ -64,6 +66,7 @@ generalBandNames: |-
   Bela Kuti
   Belle and Johann Sebastian Bach
   Benedictine Monkees
+  Ben Webster's Dictionary
   Berg: A Music War
   Berlioz and Does Eat Oats
   Bertolt Breakfast
@@ -163,6 +166,7 @@ generalBandNames: |-
   Cyndi Plopper
   Da Bart
   Daevid Allen Coe
+  Daft Pink
   Dalek & the Dominos
   Damon and Klaus Nomi
   Danziggy Marley
@@ -181,6 +185,7 @@ generalBandNames: |-
   Debby’s Hairy
   Deborah Henson-Conant the Barbarian
   Deepak Shakur
+  De La Soul Asylum
   Delores Rear End
   Depeche Commode
   Depeche Moe Dee
@@ -203,6 +208,7 @@ generalBandNames: |-
   Doody Garland
   Doofus Wainwright
   Doris Day and the Time
+  Dr. Dre Parker Jr.
   Dr. Iris DeMento
   Duane Eddie from Ohio
   Duane Edy Gorme
@@ -250,6 +256,7 @@ generalBandNames: |-
   Faust and Furious
   Fela Kooties
   Fela Soul
+  Fergie Hancock
   Fiona Crapple
   Fiszt
   Fleet Fuxa
@@ -263,7 +270,7 @@ generalBandNames: |-
   Forrest Dump
   Fountains of Wayne Fontana and the Mindbenders
   Fountains of Wayne’s World
-    "Frampton's Cameltoe"
+   Frampton's Cameltoe
   Frank Black Uhuru
   Frankie Goes To Hall & Oates
   Frank Sianara
@@ -288,6 +295,7 @@ generalBandNames: |-
   Girth Brooks
   Glam Chowder
   Goldfripp
+  Good Charlotte Gainsbourg
   Gory Estefan
   Grace Cajones
   Gram Possum
@@ -343,14 +351,17 @@ generalBandNames: |-
   Jason Mrazberries
   Jaundice Joplin
   Jehovah’s Witness Rejection Program
+  Jello B. Arthur
   Jello B. Opera
   Jellyfish Moron
   Jesus & Mary J Blige
   Jesus Philbin
   Jewel & the Gang
   Jill Scott Heron
+  Jimmy Buffett The Vampire Slayer
   Jimmy Cliff Bar
   Jimmy Stiff
+  Joan Baez Luhrman
   Joan Bias
   Joanna Newsum 41
   Joe Eloy
@@ -374,6 +385,7 @@ generalBandNames: |-
   Katy ‘Scratch’ Perry
   Keith Sweatpants
   Kenny Pharrell
+  Kenny G.G. Allin
   Kenny G Unit
   King Sunny Adé Real Estate
   Klezbian
@@ -405,6 +417,7 @@ generalBandNames: |-
   Less Cheeba
   Letters to Lalo
   Ligeti Split
+  Lil' Kim Deal
   Limp Triscuit
   Lindsey Buckethead
   Lint Bizkit
@@ -412,6 +425,7 @@ generalBandNames: |-
   Little Bruno Walter
   L.L. Fitzgerald
   LL Kool J & the the Gang
+  LL Cool J. Geils
   Llama del Ray
   Logan and Messina
   Loretta Lynyrd
@@ -450,6 +464,8 @@ generalBandNames: |-
   Mashing Dumplin’s
   Massive Attaché
   Mastadonny Osmond
+  Mastadon Pullen
+  Matchbox 21 Pilots
   Maude Squad
   McDonna
   Meat Head Manifesto
@@ -471,6 +487,8 @@ generalBandNames: |-
   Millennium Farrakhan
   Milton Berle Haggard
   Milton NASCAR Pimento
+  Mission of Irma Thomas
+  Mission Of Myanmar
   Mob Barley
   Mojo Nicks
   Morcheebacca
@@ -498,6 +516,7 @@ generalBandNames: |-
   Nekocasek
   Necro Case
   Neil Jung
+  Neil Young Cannibals
   Nelly Fritata
   Nelly Furtwangler
   Nerd With Wound
@@ -542,6 +561,7 @@ generalBandNames: |-
   Papal Vuh
   Pasty Cline
   Pat Benetard
+  Patina Turner
   Pat Methane
   Pat My Hiney
   Pat ‘Crystal’ Metheny
@@ -563,6 +583,7 @@ generalBandNames: |-
   Pharoah’s Sandals
   Pharrell Sanders
   Philip Glasshole
+  Phoebe Snow Patrol
   Pinchers of Loaf
   Placebo Domingo
   Pink Flood
@@ -570,14 +591,18 @@ generalBandNames: |-
   Poo Fighters
   Poof Daddy
   Poop Will Eat Itself
+  Portishead Sheeran
   Prefab Sprout Mask Replica
   Pud Powell
   Puddle of Creed
+  Puddle of Muddy Waters
   Puddle of Mudvayne
   Puke Smellington
   Pus Bubble
   Pus Pus
+  Queen Sleepy Labeefa
   Queen Yusef Lateefa
+  Red House Chili Painters
   R.E. Eminem
   R.E.M.F.D.M.
   Rabbi Shankar
@@ -591,15 +616,18 @@ generalBandNames: |-
   Régine Crespin Glover
   REM Speedwagon
   Ren & Stompy Jones
+  Renata the Bald Guy
   Renee Flaming Lips
   Rice-a-roni Size
   Richard Heck
   Rick Ghastly
+  Rickie Lee Jonestown Massacre
   Ricky Nilsson
   Ricky Ricardust
   Ricky Shaggs
   Right Said Radiohead
   Righty Frizzell
+  Ringo Har Mar Superstar
   Robert Frappe
   Robert Pollard Greens
   Robyn Gristle
@@ -636,7 +664,7 @@ generalBandNames: |-
   Sewer Jelly
   Shakira O'neil
   Sha Na Na Twain
-  Shania Dwayne
+  Shania Twain Shorter
   Shanté MacGowan
   Sharon ISBN
   Sharon Van Etsy
@@ -652,6 +680,7 @@ generalBandNames: |-
   Skinny Poopy
   Skirt Cobain
   Skoobas
+  Sleater-Kinney Rogers
   Slim Sade
   Sloan Dion
   Sloppy LaBeef
@@ -683,6 +712,7 @@ generalBandNames: |-
   Steamed Dumplings
   Steeleye Dan
   Steeleye Spam
+  Steely Danzig
   Steely Pulse
   Stephen J. Hawkins
   Stereocrabs
@@ -704,6 +734,7 @@ generalBandNames: |-
   Styme Council
   Stynx
   Sufjah Stevens
+  Sun Kil Spoon
   Supercramp
   Susanna Hoffsyrup
   Sushi and the Banshees
@@ -729,6 +760,7 @@ generalBandNames: |-
   The D.O.C. Watson
   The Darned
   The Engrish Beat
+  The Fall & Oates
   The Fallopian Tubes
   The Fart of Noise
   The Go Go Dolls
@@ -756,11 +788,13 @@ generalBandNames: |-
   The Squee Gees
   The Stye Council
   The Thelonious Monkees
+  The Trolling Stones
   The Tyrds
   The Umbrellas of Sonny & Cherbourg
   The Whamned
   The Whodini
   They Might Be Bosstones
+  Third Eye Blind Wille McTell
   Thirsty Moore
   This Mormon Coil
   This Mortal Coil Is a Pipe Bomb
