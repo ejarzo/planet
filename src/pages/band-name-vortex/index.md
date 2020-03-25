@@ -112,7 +112,6 @@ generalBandNames: |-
   Brian Flip Wilson
   Brian Ono
   Brigitte Bar-None
-  Brony Bennett
   Brooks & Dung
   Bryan Adam Ant
   Buffy St. Etienne
@@ -163,7 +162,6 @@ generalBandNames: |-
   Crap Your Pants Say Yeah!
   Crowded Bauhaus
   Cruel Keith
-  Cyndi Plopper
   Da Bart
   Daevid Allen Coe
   Daft Pink
@@ -892,7 +890,6 @@ nsfwBandNames: |
   Dildosaur Jr.
   Douche Grammophon
   Eddie Cockring
-  Emission of Sperma
   Enema Collective
   Esinem
   Gang Bang of Four
@@ -906,7 +903,6 @@ nsfwBandNames: |
   Jimmy Eat Shit
   Jizzy Gillespie
   John Wesley Hard-On
-  Jon Spencer Ass Explosion
   Kojackulation
   Legendary Pink Slot
   Master Beta Band
