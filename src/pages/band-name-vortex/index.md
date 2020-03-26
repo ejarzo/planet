@@ -230,6 +230,7 @@ generalBandNames: |-
   Emerson Lake Embalmer
   Emmylou Hairpiece
   Emoji Heap
+  Enema Collective
   Ennio Morricone and Cheese
   Entendre the Giant
   Epcot Fitzgerald
@@ -268,7 +269,7 @@ generalBandNames: |-
   Forrest Dump
   Fountains of Wayne Fontana and the Mindbenders
   Fountains of Wayne’s World
-   Frampton's Cameltoe
+  Frampton's Cameltoe
   Frank Black Uhuru
   Frankie Goes To Hall & Oates
   Frank Sianara
@@ -364,6 +365,7 @@ generalBandNames: |-
   Joanna Newsum 41
   Joe Eloy
   Joe Meek-a-Mouse
+  Joe Division
   John Abercrombie & Fitch
   John Booger Summercamp
   John Cagefight
@@ -384,6 +386,7 @@ generalBandNames: |-
   Keith Sweatpants
   Kenny Pharrell
   Kenny G.G. Allin
+  King Grisman
   Kenny G Unit
   King Sunny Adé Real Estate
   Klezbian
@@ -505,6 +508,7 @@ generalBandNames: |-
   Nap King Cole
   Nas Luhrman
   Nat King Coldplay
+  Nat King Kong
   Nat King Crimson
   Nat “Evelyn ‘Champagne’ King” Cole
   Natalie Merchandise
@@ -732,6 +736,7 @@ generalBandNames: |-
   Styme Council
   Stynx
   Sufjah Stevens
+  Sugarrubes
   Sun Kil Spoon
   Supercramp
   Susanna Hoffsyrup
