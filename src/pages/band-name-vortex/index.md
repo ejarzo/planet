@@ -25,6 +25,7 @@ generalBandNames: |-
   Alison Krauss In Chains
   Alison Sourkrauss
   Allah Fitzgerald
+  Allman Jamal
   Amon Drööl II
   Amy Winehouse Of Pain
   And Garfunkel
@@ -56,6 +57,7 @@ generalBandNames: |-
   Barley Mob
   Barry Whitesnake
   Barry Wrong
+  Bar Talk
   Bartoking Heads
   Bastard of Muppets
   Bau Wow Wow Haus
@@ -108,6 +110,7 @@ generalBandNames: |-
   Boris Day
   Boss Hug
   Brain Seltzer Orchestra
+  Branford Marsalis Cooper
   Brian Ego
   Brian Flip Wilson
   Brian Ono
@@ -124,7 +127,7 @@ generalBandNames: |-
   Buzzy Linfart
   Cabbage Garden
   Camper Van Halen
-  Cannibal Adderly
+  Cannibal Adderley
   Can't
   Captain Beef Fart
   Carole King Crimson
@@ -210,6 +213,7 @@ generalBandNames: |-
   Dr. Iris DeMento
   Duane Eddie from Ohio
   Duane Edy Gorme
+  Duke Of Steve Earle's Stratosphear
   Durante Column
   Dyörk
   D’Angelo Biafra
@@ -217,6 +221,7 @@ generalBandNames: |-
   Eartha Kitt & Fire
   Echo and the B.M.
   Eddie Condom
+  Eddie Monkey
   Ed Zeppelin
   Edgar Allen Coe
   Edith Peon
@@ -253,10 +258,11 @@ generalBandNames: |-
   Fats Weller
   Fatty Smith
   Faust and Furious
+  Feeble Snow
   Fela Kooties
   Fela Soul
   Fergie Hancock
-  Fiona Crapple
+  Fiona Scrapple
   Fiszt
   Fleet Fuxa
   Fleetwood Mackey
@@ -288,7 +294,7 @@ generalBandNames: |-
   Gas-XTC
   Genesis O. Atmeal
   Gerald Lever 2000
-  Gershwind and Fire
+  Gershwin and Fire
   Giggly Welch
   Gipsy Kinks
   Girth Brooks
@@ -313,6 +319,7 @@ generalBandNames: |-
   Hella Fitzgerald
   Herb Alert
   Herman’s Head Hermits
+  High Din
   Hillary Duff Beer
   Hippie Nipples
   Holly Archers of Loaf
@@ -353,9 +360,11 @@ generalBandNames: |-
   Jello B. Arthur
   Jello B. Opera
   Jellyfish Moron
+  Jersey Garcia
   Jesus & Mary J Blige
   Jesus Philbin
   Jewel & the Gang
+  J. Geils, Giles & Fripp
   Jill Scott Heron
   Jimmy Buffett The Vampire Slayer
   Jimmy Cliff Bar
@@ -434,6 +443,7 @@ generalBandNames: |-
   Los Lisa Lobos
   Lou Creed
   Lou Greed
+  Louis Premature
   Louvin Rockets
   Lucifudge
   Lucky Dube Brothers
@@ -456,6 +466,7 @@ generalBandNames: |-
   Mariah Carnage
   Mariah Heep
   Marilyn Manilow
+  Marc Almond Jamal
   Marky Mark de Sade
   Marky Moon
   Marquis de Sade (pronounced /ʃɑːˈdeɪ/)
@@ -488,6 +499,7 @@ generalBandNames: |-
   Millennium Farrakhan
   Milton Berle Haggard
   Milton NASCAR Pimento
+  Mink DeVillage People
   Mission of Irma Thomas
   Mission Of Myanmar
   Mob Barley
@@ -604,7 +616,6 @@ generalBandNames: |-
   Pus Pus
   Queen Sleepy Labeefa
   Queen Yusef Lateefa
-  Red House Chili Painters
   R.E. Eminem
   R.E.M.F.D.M.
   Rabbi Shankar
@@ -615,11 +626,14 @@ generalBandNames: |-
   Random Travis
   Randy Travesty
   Recapitated
+  Red House Chili Painters
   Régine Crespin Glover
+  Relation Sheep
   REM Speedwagon
   Ren & Stompy Jones
   Renata the Bald Guy
   Renee Flaming Lips
+  Repo McIntyre
   Rice-a-roni Size
   Richard Heck
   Rick Ghastly
@@ -642,6 +656,7 @@ generalBandNames: |-
   Rosanne Clash
   Rosemary Looney
   Roy Orb
+  Ru Paul McCartney
   Ryuichi Sakamotorhead
   Salmon Dave
   Salt ’n Pepa’s Lonely Hearts Club Band
@@ -655,7 +670,6 @@ generalBandNames: |-
   Satana
   Schnittkickers
   Scott Walker Texas Ranger
-  Scrawl & Goates
   Screamin’ Johns Hopkins
   Screamin' Sadie Hawkins
   Screamin’ Stephen Hawkins
@@ -694,6 +708,7 @@ generalBandNames: |-
   Smell Tormé
   Smelly Fartado
   Smelly Joel
+  Smoothing Pumpkins
   Snoozy & the Banshees
   Snort Master
   Snot Dogs
@@ -710,6 +725,7 @@ generalBandNames: |-
   Spooky Tuba
   Spring Heeled Jackass
   Spyro Gynecologists
+  Squirrel Nut Zappas
   Starfart
   Steamed Dumplings
   Steeleye Dan
@@ -761,6 +777,7 @@ generalBandNames: |-
   The Conjugal Visitors
   The Crapenters
   The D.O.C. Watson
+  The Doctor Robbers
   The Darned
   The Engrish Beat
   The Fall & Oates
@@ -818,6 +835,7 @@ generalBandNames: |-
   Tubach Shakur
   Turd World
   TWA Turner
+  Twenty One Pirates
   Upchuck D.
   Urethra Franklin
   Urethra Heep
@@ -834,6 +852,7 @@ generalBandNames: |-
   Velvet Undergrad
   Velvet Underground and Neko Case
   Victor Futon
+  Vinyl Richie
   Violent J Mascis
   Violin Femmes
   Wall of Doo Doo
@@ -850,6 +869,7 @@ generalBandNames: |-
   Wimp Bizkit
   Wishbone Ash Ra Temple
   Wolfgang Amadeus Mustfart
+  Woody Hermione
   Wooly Nelson
   WTF Bach
   Wu-Tang Clan Of Xymox
