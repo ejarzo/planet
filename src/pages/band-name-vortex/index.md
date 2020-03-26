@@ -18,6 +18,7 @@ generalBandNames: |-
   Ain’t I DiFranco?
   Alabama Shakira
   Al Di Meola’s Hairpiece
+  Alex Degrassi High
   Al Gangrene
   Alanis Del Ray
   Alanis Motörhead
@@ -42,6 +43,7 @@ generalBandNames: |-
   Arthur Foote Fetish
   Artie P’Shaw
   Arvo Pärtheid
+  Astilbe At The Wheel
   Astral Weaksauce
   Audiosaliva
   Avant Gardners
@@ -54,6 +56,7 @@ generalBandNames: |-
   Bad Pus
   Balogne Apple
   Band of Gipsy Kings
+  Bangla Desh Mode
   Barley Mob
   Barry Whitesnake
   Barry Wrong
@@ -72,6 +75,7 @@ generalBandNames: |-
   Berg: A Music War
   Berlioz and Does Eat Oats
   Bertolt Breakfast
+  Beth Orton Hears a Who
   Bevis & Butthead Frond
   Big Daddy Kanye
   Bill Evanescence
@@ -132,6 +136,7 @@ generalBandNames: |-
   Captain Beef Fart
   Carole King Crimson
   Carrie Understudy
+  Cat Powder
   Cecilia Barfoli
   Celia Cruz Missile
   Celine Dio
@@ -163,6 +168,7 @@ generalBandNames: |-
   Cousteau Twins
   Crap Array Voltaire
   Crap Your Pants Say Yeah!
+  Crispin Hersch
   Crowded Bauhaus
   Cruel Keith
   Da Bart
@@ -209,6 +215,7 @@ generalBandNames: |-
   Doody Garland
   Doofus Wainwright
   Doris Day and the Time
+  Dreidel of Filth
   Dr. Dre Parker Jr.
   Dr. Iris DeMento
   Duane Eddie from Ohio
@@ -264,7 +271,9 @@ generalBandNames: |-
   Fergie Hancock
   Fiona Scrapple
   Fiszt
+  Flamin' Groovie's Lips
   Fleet Fuxa
+  Fleetwood Mac and Cheese
   Fleetwood Mackey
   Fleetwood Smack
   Flobutt
@@ -291,11 +300,13 @@ generalBandNames: |-
   G.G. Allman
   G.G. Alvin and the Chipmunks
   Garth Vader
+  Gary U.S. Bondage
   Gas-XTC
   Genesis O. Atmeal
   Gerald Lever 2000
   Gershwin and Fire
   Giggly Welch
+  Gino Vannelli Ice
   Gipsy Kinks
   Girth Brooks
   Glam Chowder
@@ -328,6 +339,7 @@ generalBandNames: |-
   Huey Lee Lewis
   Huu-Skuur-Dü
   Hug Masakela
+  Huge Masakela
   Ian Dury Column
   iCarly Simon
   Id Krock
@@ -342,6 +354,7 @@ generalBandNames: |-
   Itty Bitty Shirt Band
   J Geils Giles & Fripp
   J. Mucus
+  Jackyl Jones
   Jack’s Johnson
   Jaco Ono
   Jah Jah Gabor
@@ -392,11 +405,12 @@ generalBandNames: |-
   Karen Carpet Tack
   Karl Jenkem
   Katy ‘Scratch’ Perry
+  K.D. Wang Chung
   Keith Sweatpants
   Kenny Pharrell
   Kenny G.G. Allin
-  King Grisman
   Kenny G Unit
+  King Grisman
   King Sunny Adé Real Estate
   Klezbian
   Korny
@@ -420,15 +434,18 @@ generalBandNames: |-
   Later Skinny
   Lee Ranaldo & The Loaf
   Lee ‘Refrigerator’ Perry
+  Leftover Salmon Rushdie
   Lenny Kraftwerk
   Leo Latke
   Leon Redbone Ash
+  Leroy Not So Smart
   Lesley Gordita
   Less Cheeba
   Letters to Lalo
   Ligeti Split
   Lil' Kim Deal
   Limp Triscuit
+  Lincoln Pork
   Lindsey Buckethead
   Lint Bizkit
   Lisa Lobotomy
@@ -437,6 +454,7 @@ generalBandNames: |-
   LL Kool J & the the Gang
   LL Cool J. Geils
   Llama del Ray
+  Lloyd Coil
   Logan and Messina
   Loretta Lynyrd
   Los Hobos
@@ -460,11 +478,13 @@ generalBandNames: |-
   Man or Aimee-Mann?
   Man or Astor-Piazzollaman?
   Mandy Moorrissy
+  Mango Jerry
   Manischewitz Orchestra
   Manowar or Astro-manowar?
   Manu Chowda
   Mariah Carnage
   Mariah Heep
+  Maria Muldaur and Sculley
   Marilyn Manilow
   Marc Almond Jamal
   Marky Mark de Sade
@@ -489,11 +509,14 @@ generalBandNames: |-
   Merkin of Venice
   Merle Hagar
   Merle Haggis
+  Messiah Carey
+  Messy Elliott
   Methadone Man
   Meth Orton
   Michael Bublébath
   Michael Bubléwrap
   Mick Jaegermeister
+  Midnight Earl
   Mike Love & Special Sauce
   Miley Cypress Hill
   Millennium Farrakhan
@@ -503,6 +526,7 @@ generalBandNames: |-
   Mission of Irma Thomas
   Mission Of Myanmar
   Mob Barley
+  Mohel Haggard
   Mojo Nicks
   Morcheebacca
   Moron 5
@@ -523,8 +547,9 @@ generalBandNames: |-
   Nat King Kong
   Nat King Crimson
   Nat “Evelyn ‘Champagne’ King” Cole
+  Nat King Cul de Sac
   Natalie Merchandise
-  Natalie Portishead
+  Natalie Merchant of Venice
   Necco Case
   Neko Basket Case
   Nekocasek
@@ -596,6 +621,7 @@ generalBandNames: |-
   Petulant Clark
   Pharoah’s Sandals
   Pharrell Sanders
+  Phat Metheney
   Philip Glasshole
   Phoebe Snow Patrol
   Pinchers of Loaf
@@ -763,10 +789,12 @@ generalBandNames: |-
   Syndrome of a Downs
   Tahini Kill
   Talking Heads of Lettuce
+  Tampon Red
   Techno & the Bunnymen
   Ted Nuisance
   Teenage Mutant Ninja Turtle Island Quartet
   Temple of Dog the Bounty Hunter
+  Tennessee Ernie Fjord
   Thai Seagulls
   The Active Cultures
   The Backside Noise
@@ -825,6 +853,7 @@ generalBandNames: |-
   Throwing Up Muses
   Tin Tin Machine
   Tiny Timberlake
+  Tommy Wynette
   Tom Putty
   Tom Waits for No Man
   Tony Danzig
@@ -835,6 +864,7 @@ generalBandNames: |-
   Tubach Shakur
   Turd World
   TWA Turner
+  Twenty One Pirates
   Twenty One Pirates
   Upchuck D.
   Urethra Franklin
@@ -877,6 +907,7 @@ generalBandNames: |-
   Wueen
   Wyatt Riot
   Wynton Merciless
+  XTZZ Top
   Yakstreet Boys
   Yanni DiFranco
   Yawny
