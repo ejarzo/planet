@@ -3,8 +3,14 @@ templateKey: index-page
 title: Planet Records
 image: /img/browsers-in-motion-3.jpg
 subheading: Serving New England & the World since 1983
-heading: Planet Records temporarily closed!
+heading: 'Planet Records temporarily closed but opening "soon"! '
 description: >-
+  Now after two months in lockdown there is a hope that we will have our doors
+  open by mid June. Here's hoping!
+
+
+
+
   Found today at [144 Mt. Auburn St, Cambridge, MA](/location-hours), Planet
   Records was established in 1983 in Kenmore Square as a record lover’s
   destination. Planet Records offers a wide selection of quality LPs, CDs and
