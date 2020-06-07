@@ -3,7 +3,9 @@ templateKey: index-page
 title: Planet Records
 image: /img/browsers-in-motion-3.jpg
 subheading: Serving New England & the World since 1983
-heading: 'Planet Records temporarily closed but opening "soon"! '
+heading: >-
+  Planet Records temporarily closed but opening "soon"! At the latest by June
+  20th. We'll let you know.
 description: >-
   Now after two months in lockdown there is a hope that we will have our doors
   open by mid June. Here's hoping!
