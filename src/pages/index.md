@@ -3,8 +3,11 @@ templateKey: index-page
 title: Planet Records
 image: /img/browsers-in-motion-3.jpg
 subheading: Serving New England & the World since 1983
-heading: 'Planet Records will reopen on June 15. Initial hours: 12 to 4.'
+heading: 'Planet Records reopens on June 15.  '
 description: >-
+  **On June 19 Planet will be open from 11:00 to 6:00 every day.**
+
+
   Found today at [144 Mt. Auburn St, Cambridge, MA](/location-hours), Planet
   Records was established in 1983 in Kenmore Square as a record lover’s
   destination. Planet Records offers a wide selection of quality LPs, CDs and
