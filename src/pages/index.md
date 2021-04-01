@@ -3,9 +3,9 @@ templateKey: index-page
 title: Planet Records
 image: /img/browsers-in-motion-3.jpg
 subheading: Serving New England & the World since 1983
-heading: 'Planet Records reopens on June 15.  '
+heading: Planet Records is open and ready for you!
 description: >-
-  **On June 19 Planet will be open from 11:00 to 6:00 every day.**
+  **We are open 11:00 to 6:00 every day.**
 
 
   Found today at [144 Mt. Auburn St, Cambridge, MA](/location-hours), Planet
