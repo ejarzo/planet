@@ -4,7 +4,7 @@ title: Selling & Trading Your Stuff
 ---
 ### 
 
-Planet always has buyers on duty and we’re happy to look at anything you bring in. We see a lot of stuff these days, though, and you should know a little about the process before you come by.
+Planet always has buyers on duty and we’re happy to look at anything you bring in. We see many collections every week though and you should know a little about the process before you come by.
 
 * We buy vinyl (LPs and 7"s), CDs, Cassettes, DVDs and blu-rays.
 * We buy some music-related books, posters, etc.
