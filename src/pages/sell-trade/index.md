@@ -13,9 +13,9 @@ Planet always has buyers on duty and we’re happy to look at anything you bring
 * We don’t buy discs with missing artwork.
 * We occasionally buy Americana (folk, blues, and gospel etc.) on 78 RPM
 
-Title and condition are the factors that determine our interest. The majority of titles that we could potentially use are only candidates when they’re in excellent condition. We only evaluate item-by-item; we don’t purchase lots as such.
+Title and condition are the factors that determine our interest. The majority of titles that we could potentially use are only candidates when they’re in excellent condition. We evaluate item-by-item; we don’t purchase lots as such.
 
-**We want your LP collection**. We can purchase all genres. We rarely buy easy listening, mainstream big band or pop vocal. Audiophile releases, unusual recordings and contemporary composers can be exceptions. 
+**We want your LP collection**. We can purchase all genres of music. Rock, R&B, Jazz, Blues, International, Reggae, Country, Folk, Experimental and many others are all part of our inventory. (We rarely buy easy listening, mainstream big band or pop vocal). Audiophile releases, unusual recordings and contemporary composers can be exceptions. 
 
 With CDs we’re looking for music in all genres in excellent condition. However we have been overwhelmed by the number of incoming CD collections over the past few years. As a result we are very selective about what we can buy. In general the more mainstream (common) the artists, the less likely we are to be able to buy their CDs but there are always exceptions.
 
