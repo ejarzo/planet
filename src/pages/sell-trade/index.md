@@ -21,6 +21,6 @@ With CDs we’re looking for music in all genres in excellent condition. However
 
 We buy interesting cassettes.
 
-We buy all kinds of DVDs and Blu Rays. We focus on classic movies, foreign films, some TV series, music DVDs and offbeat titles. We’re much more likely to buy items with niche interest than blockbuster Hollywood films.
+We buy all kinds of DVDs and Blu Rays. We focus on classic movies, foreign films, some TV series, music DVDs and offbeat titles. We especially appreciate Criterion and other high quality versions of films. We’re more likely to buy items with niche interest than blockbuster Hollywood films.
 
-If you want to bring in over 50 items, we suggest calling first (617 492-0693). While you don’t need an appointment, on very busy days there may be a wait. We don’t keep anything over night, so if you drop off a collection and leave, please be sure that you can come back later the same day.
+If you want to bring in over 50 items, we suggest calling first (617-492-0693). While you don’t need an appointment, on very busy days there may be a wait. For larger collections you shoulkd make an appointment. We don’t keep anything over night, so if you drop off a collection and leave, please be sure that you can come back later the same day.
