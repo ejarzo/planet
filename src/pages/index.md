@@ -41,7 +41,7 @@ shoppingOnlineSection:
       url: 'https://www.discogs.com/seller/PlanetRecords/profile'
     - title: eBay
       image: /img/ebay_logo.svg
-      url: 'https://www.ebay.com/usr/zzy49'
+      url: 'https://www.ebay.com/str/planetrecordsandcds'
 lowerSection: >-
   ## Take a Look Around!
 
