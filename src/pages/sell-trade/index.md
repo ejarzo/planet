@@ -6,7 +6,7 @@ title: Selling & Trading Your Stuff
 
 Planet always has buyers on duty and we’re happy to look at anything you bring in. We see many collections every week though and you should know a little about the process before you come by.
 
-* We buy vinyl (LPs and 7"s), CDs, Cassettes, DVDs and blu-rays.
+* We buy vinyl (LPs and 7"s), some CDs, Cassettes, DVDs and blu-rays.
 * We buy some music-related books, posters, etc.
 * We buy music-related memorabilia, like T-shirts and accessories.
 * We don’t usually buy VHS tapes. There may be exceptions for unusual items.
@@ -17,7 +17,7 @@ Title and condition are the factors that determine our interest. The majority of
 
 **We want your LP collection**. We can purchase all genres of music. Rock, R&B, Jazz, Blues, International, Reggae, Country, Folk, Classical, Experimental and many others are all candidates for our inventory. (We rarely buy easy listening, mainstream big band or pop vocal - OK, we'll buy Frank). Audiophile releases, unusual recordings and contemporary composers can be exceptions. 
 
-With CDs we’re looking for music in all genres in excellent condition. However we have been overwhelmed by the number of incoming CD collections over the past few years. As a result we are very selective about what we can buy. In general the more mainstream (common) the artists, the less likely we are to be able to buy their CDs but there are always exceptions.
+We have been inundated with CDs over the past few years so we can't use everything. We’re looking for music in all genres in excellent condition. As a result we are very selective about what we can buy. In general the more mainstream (common) the artists, the less likely we are to be able to buy their CDs but there are always exceptions. We can usually use reggae, blues, some jazz, international, ethnic collections. We look for box sets, Japanese pressings and other collectibles.
 
 We buy interesting cassettes.
 
