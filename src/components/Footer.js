@@ -74,7 +74,7 @@ const Footer = class extends React.Component {
                 <a
                   title="ebay"
                   target="blank"
-                  href="https://www.ebay.com/usr/zzy49"
+                  href="https://www.ebay.com/str/planetrecordsandcds"
                 >
                   <EBayIcon style={{ width: 40 }} />
                 </a>
